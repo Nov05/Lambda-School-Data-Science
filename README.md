@@ -1,4 +1,6 @@
-# Lambda-School-Data-Science-Precourse
+# Lambda-School-Data-Science
+
+Lambda School Data Science Precourse
 https://apply.lambdaschool.com/courses/ds-precourse/
 
 Assignment 1 – Intro to Python  
