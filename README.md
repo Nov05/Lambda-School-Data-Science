@@ -12,6 +12,8 @@ Assignment 3 – Statistics of Forest Fires
 https://drive.google.com/file/d/1L99Bkn5CC_3BOcvLwGL4DQwyax3G5Ft-/view?usp=sharing  
 Assignment 4 – Inferential Statistics  
 https://drive.google.com/file/d/1ZKKSSDSAQbamaD7Cch0iU7WBnSgskCxT/view?usp=sharing  
+Assignment 5 – Linear Algebra Foundations  
+https://drive.google.com/file/d/1p6bJUzamjXSotNassSHs61GmLArdoDvj/view?usp=sharing
 
 **Lecture Note**  
 Lecture 1 – Intro to Python  
@@ -22,6 +24,8 @@ Lecture 3 – Intro to Statistics
 https://colab.research.google.com/drive/163eXNZBfczO5Noei63Y6A5dtUzEy58tq  
 Lecture 4 – Inferential Statistics  
 https://colab.research.google.com/drive/1C_7E0qHtMH4qNwuVJAvv7lG6XO7S-eKw  
+Lecture 5 – Linear Algebra Foundations  
+https://colab.research.google.com/drive/1aIKdXIAPhHgZQT5gMZIW1F50SfZuuYJL
 
 
 
