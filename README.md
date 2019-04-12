@@ -30,6 +30,8 @@ Lecture 5 – Linear Algebra Foundations
 https://colab.research.google.com/drive/1aIKdXIAPhHgZQT5gMZIW1F50SfZuuYJL  
 Lecture 6 – Linear Algebra Applications  
 https://colab.research.google.com/drive/1Qx4ZogIpzsBkLaoi_aeHp5NDdGpoTynZ  
+Lecture 7 – More Regression  
+https://colab.research.google.com/drive/1yg75YgfyeKB1YU9w7ju6Lb_1pGl__YZq  
 
 
 
