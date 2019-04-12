@@ -16,6 +16,8 @@ Assignment 5 – Linear Algebra Foundations
 https://drive.google.com/file/d/1p6bJUzamjXSotNassSHs61GmLArdoDvj/view?usp=sharing  
 Assignment 6 – Linear Algebra Applications  
 https://drive.google.com/file/d/1hT-FxgmtoVBVDu86sv-2eYSGqTltkawo/view?usp=sharing  
+Assignment 7 – More Regression
+https://drive.google.com/file/d/1OvHLc2CZzcx5LS6GnuNa6YdeYgDcb442/view?usp=sharing  
 
 **Lecture Note**  
 Lecture 1 – Intro to Python  
