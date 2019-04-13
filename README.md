@@ -18,6 +18,8 @@ Assignment 6 – Linear Algebra Applications
 https://drive.google.com/file/d/1hT-FxgmtoVBVDu86sv-2eYSGqTltkawo/view?usp=sharing  
 Assignment 7 – More Regression  
 https://drive.google.com/file/d/1OvHLc2CZzcx5LS6GnuNa6YdeYgDcb442/view?usp=sharing  
+Assignment 8 – Classification  
+https://drive.google.com/file/d/17CqzmsgsYstu3Wm2z-TVZaUvif-EM9eb/view?usp=sharing
 
 **Lecture Note**  
 Lecture 1 – Intro to Python  
@@ -34,6 +36,8 @@ Lecture 6 – Linear Algebra Applications
 https://colab.research.google.com/drive/1Qx4ZogIpzsBkLaoi_aeHp5NDdGpoTynZ  
 Lecture 7 – More Regression  
 https://colab.research.google.com/drive/1yg75YgfyeKB1YU9w7ju6Lb_1pGl__YZq  
+Lecture 8 – Classification  
+https://colab.research.google.com/drive/1Ws9_XE28ymNOrtvWz9gcr2WaNcSdIglz
 
 
 
