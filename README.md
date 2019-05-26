@@ -1,5 +1,7 @@
 ﻿# Lambda-School-Data-Science
 
+<img src="https://github.com/Nov05/Lambda-School-Data-Science/blob/master/pictures/lambda-school-vector-logo.jpg">  
+
 **[Syllabus](https://learn.lambdaschool.com/syllabus/ds)**  
 
 2019-04-04 Precouse [Notes](https://github.com/Nov05/Lambda-School-Data-Science/blob/master/readme/precourse.md)  
