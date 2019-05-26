@@ -1,6 +1,6 @@
 ﻿# Lambda-School-Data-Science
 
-<img src="https://github.com/Nov05/Lambda-School-Data-Science/blob/master/pictures/lambda-school-vector-logo.jpg">  
+<img width=500 src="https://github.com/Nov05/Lambda-School-Data-Science/blob/master/pictures/lambda-school-vector-logo.jpg">  
 
 **[Syllabus](https://learn.lambdaschool.com/syllabus/ds)**  
 
