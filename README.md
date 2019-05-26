@@ -1,6 +1,6 @@
-# Lambda-School-Data-Science
+﻿# Lambda-School-Data-Science
 
-**Lambda School Data Science Precourse**  
+**Lambda School Data Science Precourse**     
 https://apply.lambdaschool.com/courses/ds-precourse/
 
 **Assignment**  
@@ -39,5 +39,7 @@ https://colab.research.google.com/drive/1yg75YgfyeKB1YU9w7ju6Lb_1pGl__YZq
 Lecture 8 – Classification  
 https://colab.research.google.com/drive/1Ws9_XE28ymNOrtvWz9gcr2WaNcSdIglz
 
+2019-05-24 [LS1905 Student Orientation](https://youtu.be/i2FlKBBZtS0)  
 
+**[Syllabus](https://learn.lambdaschool.com/syllabus/ds)**
 
