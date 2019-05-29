@@ -20,9 +20,8 @@ https://www.youtube.com/watch?v=kavWjF19WVE
 
 **2019-05-29 Wednesday**  
 
-Week 1 Module 3 - Making Data-Backed Assertions  
-https://youtu.be/UfnpZXRhOVE Module  
-[Colab Notes](https://colab.research.google.com/drive/1VMaZ-TH7AKk8SWJM3hctYYsmGIp3HHOF)  
+Week 1 Module 3 - Making Data-Backed Assertions  [(Colab Notes)](https://colab.research.google.com/drive/1VMaZ-TH7AKk8SWJM3hctYYsmGIp3HHOF)  
+https://youtu.be/UfnpZXRhOVE  
 
 
 

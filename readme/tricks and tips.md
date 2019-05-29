@@ -14,10 +14,10 @@ https://lambdaschoolstudents.slack.com/archives/GGUTEGALS/p1559099945433000
 4. Process wine quality dataset with keras
 https://lambdaschoolstudents.slack.com/archives/GGUTEGALS/p1559146746467800
 
-5. random seeds
+5. random seeds  
 https://lambdaschoolstudents.slack.com/archives/GGUTEGALS/p1559149204023200
 
-6. loading .csv from github (raw)
+6. loading .csv from github (raw)  
 https://lambdaschoolstudents.slack.com/archives/GGUTEGALS/p1559150261028500
 
 7. Python Pandas  
