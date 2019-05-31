@@ -9,6 +9,7 @@
 **2019-05-28 Tuesday**  
 
 [Week 1 Module 2 - Loading data from a variety of sources](https://www.youtube.com/watch?v=kavWjF19WVE)  
+[(Colab Notes)](https://colab.research.google.com/drive/1CRv805iJBJhXYH6TowPK-u3M6IwV5-ah)  
 
 **2019-05-29 Wednesday**  
 
