@@ -23,7 +23,7 @@
 
 **2019-05-30 Tuesday**  
 
-[Week 1 Module 4]()  
+[Week 1 Module 4 - Making Features](https://youtu.be/oi3ron_QgXE)  
 [(Colab Notes)](https://colab.research.google.com/drive/1u6W40otEDy-tKhYnah6rJc_rjcQectwD)
 
 
