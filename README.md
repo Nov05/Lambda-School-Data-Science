@@ -9,4 +9,5 @@
 2019-05-28 Unit 1 Sprint 1 Dealing with Data [Video](https://github.com/Nov05/DS-Unit-1-Sprint-1-Dealing-With-Data)  
 
 2019-06-03 Unit 1 Sprint 2 Join and Merge [Video](https://youtu.be/3vLHRhqxWMI)    
+2019-06-04 Unit 1, Sprint 2, Module 2: Finding Portfolio Ideas [Video](https://youtu.be/UMzc8ZMlLGI)
 
