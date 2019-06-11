@@ -12,7 +12,7 @@
  
 2019-05-28 Unit 1 Sprint 1 Module 1 Orientation and A First Look At Data [Video](https://youtu.be/m7Ue-b-8vpA)  
 2019-05-28 Unit 1 Sprint 1 Module 2 Loading Data from A Variety of Sources [Video](https://www.youtube.com/watch?v=kavWjF19WVE)/[Notebook](https://colab.research.google.com/drive/1CRv805iJBJhXYH6TowPK-u3M6IwV5-ah)  
-2019-05-29 Unit 2 Sprint 1 Module 3 Making Data-Backed Assertions [Video](https://youtu.be/UfnpZXRhOVE)/[Notebook](https://colab.research.google.com/drive/1VMaZ-TH7AKk8SWJM3hctYYsmGIp3HHOF)   
+2019-05-29 Unit 1 Sprint 1 Module 3 Making Data-Backed Assertions [Video](https://youtu.be/UfnpZXRhOVE)/[Notebook](https://colab.research.google.com/drive/1VMaZ-TH7AKk8SWJM3hctYYsmGIp3HHOF)   
 2019-05-30 Unit 1 Sprint 1 Module 4 Make features [Video](https://youtu.be/oi3ron_QgXE)/[Notebook](https://colab.research.google.com/drive/1u6W40otEDy-tKhYnah6rJc_rjcQectwD)  
 2019-05-31 Unit 1 Sprint 1 Challenge  
 
