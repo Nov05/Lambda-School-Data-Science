@@ -4,7 +4,8 @@
 
 :point_right: **[Syllabus](https://learn.lambdaschool.com/syllabus/ds)**  
 :point_right: **[Training Kit](https://learn.lambdaschool.com/course/ds)**  
-:point_right: **[Google Calendar](https://calendar.google.com/calendar/b/1?cid=bGFtYmRhc2Nob29sLmNvbV83azk3cnMzbWhpZmVmdWN2ajV0YTg1ZmM1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)**   
+:point_right: **[Google Calendar](https://calendar.google.com/calendar/b/1?cid=bGFtYmRhc2Nob29sLmNvbV83azk3cnMzbWhpZmVmdWN2ajV0YTg1ZmM1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)**  
+:point_right: **[Student Forms](https://dashboards.lambdaschool.com/forms/)**   
 
 2019-04-04 Precouse [Notes](https://github.com/Nov05/Lambda-School-Data-Science/blob/master/readme/precourse.md)  
 
@@ -20,6 +21,10 @@
 2019-06-04 Unit 1 Sprint 2 Module 2: Finding Portfolio Ideas [Video](https://youtu.be/UMzc8ZMlLGI)    
 2019-06-05 Unit 1 Sprint 2 Module 3: Make Explanatory Visualizations [Video](https://youtu.be/jznO5v5UQjI)/[Notebook](https://colab.research.google.com/drive/1Fxzis6-UYqBWsRpENu4E4yPoM9v1Jde_)   
 2019-06-06 Unit 1 Sprint 2 Module 4: Sequencing your Narrative [Video](https://youtu.be/8dJa5DWW7c0)/[Notebook](https://colab.research.google.com/drive/1vDr1dQPUcoFGEV1s5SVw9y4BSAKfCuk9)  
-2019-06-07 Unit 1 Sprint 2 Challenge Solution [Video](https://youtu.be/6YGNDISb_q8)  
+2019-06-07 Unit 1 Sprint 2 Challenge    
 
 2019-06-10 Unit 1 Sprint 3 Module 1: Statistics, Probability, Inference [Video](https://youtu.be/1Xp78Kvo6hE)/[Notebook](https://colab.research.google.com/drive/1DBYTc-o6u8YirXuBeAQXtcsxrbeRySUy)     
+2019-06-11 Unit 1 Sprint 3 Module 2: Sampling, Confidence Intervals and Hypothesis Testing [Video](https://youtu.be/WgafuerBmOI)/[Notebook](https://colab.research.google.com/drive/1-rSL_JcLNSlGHYjDQDPiu2p-qnt9zC6r)  
+2019-06-12 Unit 1 Sprint 3 Module 3 Introduction to Bayesian Inference: [Video](https://youtu.be/dhpGLUMtki8)/[Notebook](https://colab.research.google.com/drive/1B8AfL474sd40p6NJFjsX4QXSgTf7eK6R)/[Notebook](https://colab.research.google.com/drive/1MX0LJlRgObHoJ2sC2xx5X-n3E7Wn_2p9)  
+2019-06-13 Unit 1 Sprint 3 Module 4 Designing Real World Experiments: [Video](https://youtu.be/oJoQuJaarO8)  
+2019-06-14 Unit 1 Sprint 3 Challenge
