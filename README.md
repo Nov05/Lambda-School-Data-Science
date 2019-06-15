@@ -11,10 +11,10 @@
 
 2019-05-24 LS1905 Student Orientation [Video](https://youtu.be/i2FlKBBZtS0)  
  
-2019-05-28 Unit 1 Sprint 1 Module 1 Orientation and A First Look At Data [Video](https://youtu.be/m7Ue-b-8vpA)  
-2019-05-28 Unit 1 Sprint 1 Module 2 Loading Data from A Variety of Sources [Video](https://www.youtube.com/watch?v=kavWjF19WVE)/[Notebook](https://colab.research.google.com/drive/1CRv805iJBJhXYH6TowPK-u3M6IwV5-ah)  
-2019-05-29 Unit 1 Sprint 1 Module 3 Making Data-Backed Assertions [Video](https://youtu.be/UfnpZXRhOVE)/[Notebook](https://colab.research.google.com/drive/1VMaZ-TH7AKk8SWJM3hctYYsmGIp3HHOF)   
-2019-05-30 Unit 1 Sprint 1 Module 4 Make features [Video](https://youtu.be/oi3ron_QgXE)/[Notebook](https://colab.research.google.com/drive/1u6W40otEDy-tKhYnah6rJc_rjcQectwD)  
+2019-05-28 Unit 1 Sprint 1 Module 1: Orientation and A First Look At Data [Video](https://youtu.be/m7Ue-b-8vpA)  
+2019-05-28 Unit 1 Sprint 1 Module 2: Loading Data from A Variety of Sources [Video](https://www.youtube.com/watch?v=kavWjF19WVE)/[Notebook](https://colab.research.google.com/drive/1CRv805iJBJhXYH6TowPK-u3M6IwV5-ah)  
+2019-05-29 Unit 1 Sprint 1 Module 3: Making Data-Backed Assertions [Video](https://youtu.be/UfnpZXRhOVE)/[Notebook](https://colab.research.google.com/drive/1VMaZ-TH7AKk8SWJM3hctYYsmGIp3HHOF)   
+2019-05-30 Unit 1 Sprint 1 Module 4: Make features [Video](https://youtu.be/oi3ron_QgXE)/[Notebook](https://colab.research.google.com/drive/1u6W40otEDy-tKhYnah6rJc_rjcQectwD)  
 2019-05-31 Unit 1 Sprint 1 Challenge  
 
 2019-06-03 Unit 1 Sprint 2 Module 1: Join and Merge [Video](https://youtu.be/3vLHRhqxWMI)/[Notebook](https://colab.research.google.com/drive/1vDr1dQPUcoFGEV1s5SVw9y4BSAKfCuk9)    
@@ -25,6 +25,6 @@
 
 2019-06-10 Unit 1 Sprint 3 Module 1: Statistics, Probability, Inference [Video](https://youtu.be/1Xp78Kvo6hE)/[Notebook](https://colab.research.google.com/drive/1DBYTc-o6u8YirXuBeAQXtcsxrbeRySUy)     
 2019-06-11 Unit 1 Sprint 3 Module 2: Sampling, Confidence Intervals and Hypothesis Testing [Video](https://youtu.be/WgafuerBmOI)/[Notebook](https://colab.research.google.com/drive/1-rSL_JcLNSlGHYjDQDPiu2p-qnt9zC6r)  
-2019-06-12 Unit 1 Sprint 3 Module 3 Introduction to Bayesian Inference: [Video](https://youtu.be/dhpGLUMtki8)/[Notebook](https://colab.research.google.com/drive/1B8AfL474sd40p6NJFjsX4QXSgTf7eK6R)/[Notebook](https://colab.research.google.com/drive/1MX0LJlRgObHoJ2sC2xx5X-n3E7Wn_2p9)  
-2019-06-13 Unit 1 Sprint 3 Module 4 Designing Real World Experiments: [Video](https://youtu.be/oJoQuJaarO8)  
+2019-06-12 Unit 1 Sprint 3 Module 3: Introduction to Bayesian Inference: [Video](https://youtu.be/dhpGLUMtki8)/[Notebook](https://colab.research.google.com/drive/1B8AfL474sd40p6NJFjsX4QXSgTf7eK6R)/[Notebook](https://colab.research.google.com/drive/1MX0LJlRgObHoJ2sC2xx5X-n3E7Wn_2p9)  
+2019-06-13 Unit 1 Sprint 3 Module 4: Designing Real World Experiments: [Video](https://youtu.be/oJoQuJaarO8)  
 2019-06-14 Unit 1 Sprint 3 Challenge
