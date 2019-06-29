@@ -1,0 +1,60 @@
+
+
+2019-06-28 Week 5 Day 5  
+Storytelling Project  
+
+DS5 Unit 1 Project Presentations https://youtu.be/yCnmlZb1NuE  
+YouTube | Lambda School  
+*DS5 Unit 1 Project Presentations*  
+
+========================================================================
+
+Ryan Herr [4:08 PM]  
+@channel *Unit 2 is Predictive Modeling!*  
+
+I like Brandon Rohrer’s explanation in his blog post, “What questions can machine learning answer?” (https://brohrer.github.io/five_questions_data_science_answers.html).
+
+We’ll focus on two of these questions in Unit 2. These are both types of “supervised learning.”  
+- “Is this A or B?” (Classification)  
+- “How Much / How Many?” (Regression)  
+
+In four weeks, you’ll do four supervised learning projects with “tabular data” (data in tables, like a spreadsheet).  
+- Predict New York City apartment rents  
+- Predict which water pumps in Tanzania need repairs  
+- Predict the prices suppliers will quote Caterpillar for industrial parts  
+- Choose your own labeled, tabular dataset, train a predictive model, and publish a blog post or web app with visualizations to explain your model!
+
+Here are just a few example projects from our most recent cohorts:  
+- DS4, Stephen (https://movie-money.herokuapp.com/)  
+- DS4, Kim (https://medium.com/@ShadyLaine/chance-me-31b1b88d9067)  
+- DS3, Patricia (https://medium.com/@pbradshaw/exploring-the-tanzanian-water-crisis-aa3532192fdd)  
+- DS3, Michael (https://towardsdatascience.com/maximizing-scarce-maintenance-resources-with-data-8f3491133050?sk=54e16f4c36cf473872947885fec6c75b)
+
+To help inspire and prepare you, I recommend you look at these links during your summer break, about some of the tools and techniques you’ll learn during the unit:
+
+- A visual introduction to machine learning (http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)  
+- Python Data Science Handbook, Chapter 5.2, Introducing Scikit-Learn  
+(https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html)  
+- Plotly Dash, 20 minute video (https://www.youtube.com/watch?v=5Cw4JumJTwo)  
+
+Thanks, I’m so excited to get started on July 8!  
+
+========================================================================
+
+https://youtu.be/Xc4APqKOHB0  
+YouTube | Lambda School  
+Lambda School Data Science - Guest Lecture, Aleks Taranov - Interactive Data Visualization  
+
+Aaron Gallant [12:49 PM]    
+@here Ahead of the brown bag with Aleks, we've got data and instructions for setting up an environment to follow along: https://drive.google.com/drive/folders/1Aq3f9LenVD8g9LvJJF1IEoo1-wlWqPb5
+
+```I've made a yml file that will set up the env with conda and the terminal command to set it up is as follows:
+
+conda env create -f guest_lecture.yml -n choose_env_name
+
+I've also included some datasets and a plotly cheat sheet.```
+
+Aaron Gallant [12:59 PM]  
+@here Come on down for Aleks brown bag! https://lambdaschool.zoom.us/my/aaronlambda
+
+========================================================================
