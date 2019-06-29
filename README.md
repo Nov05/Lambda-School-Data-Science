@@ -28,3 +28,16 @@
 2019-06-12 Unit 1 Sprint 3 Module 3: Introduction to Bayesian Inference: [Video](https://youtu.be/dhpGLUMtki8)/[Notebook](https://colab.research.google.com/drive/1B8AfL474sd40p6NJFjsX4QXSgTf7eK6R)/[Notebook](https://colab.research.google.com/drive/1MX0LJlRgObHoJ2sC2xx5X-n3E7Wn_2p9)  
 2019-06-13 Unit 1 Sprint 3 Module 4: Designing Real World Experiments: [Video](https://youtu.be/oJoQuJaarO8)  
 2019-06-14 Unit 1 Sprint 3 Challenge
+
+2019-06-17 Unit 1 Sprint 4 Module 1:  
+2019-06-18 Unit 1 Sprint 4 Module 2:  
+2019-06-19 Unit 1 Sprint 4 Module 3:  
+2019-06-20 Unit 1 Sprint 4 Module 4:  
+2019-06-21 Unit 1 Sprint 4 Challenge  
+
+2019-06-24  
+2019-06-25  
+2019-06-26  
+2019-06-27  
+2019-06-28 Unit 1 Sprint 5 Presentation  
+
