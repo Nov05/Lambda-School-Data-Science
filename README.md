@@ -7,7 +7,7 @@
 :point_right: **[Google Calendar](https://calendar.google.com/calendar/b/1?cid=bGFtYmRhc2Nob29sLmNvbV83azk3cnMzbWhpZmVmdWN2ajV0YTg1ZmM1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)**  
 :point_right: **[Student Forms](https://dashboards.lambdaschool.com/forms/)**   
 
-2019-04-04 Precouse [Notes](https://github.com/Nov05/Lambda-School-Data-Science/blob/master/readme/precourse.md)  
+2019-04-04 Precourse [Notes](https://github.com/Nov05/Lambda-School-Data-Science/blob/master/readme/precourse.md)  
 
 2019-05-24 LS1905 Student Orientation [Video](https://youtu.be/i2FlKBBZtS0)  
  
