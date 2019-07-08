@@ -1,0 +1,81 @@
+
+
+===========================================================================================
+
+Ryan Herr [1:58 PM]  
+@here Thanks all! To recap in writing, today’s assignment:  
+
+*1.* Complete the empty code cells in the lesson notebook and commit to your fork of the notebook.  
+
+You may replicate the exact same code as the live lesson (https://colab.research.google.com/drive/1ToaaJAJu3KDDcyy1uLrC5-i9Omt1z066). But type it yourself, *don’t copy-paste,* (https://docs.google.com/document/d/1ubOw9B3Hfip27hF2ZFnW3a3z9xAgrUDRReOEo-FHCVs/edit)  
+
+But you don’t have to use the exact same code as the live lesson, if you prefer different syntax or techniques. Write whatever code you want that fulfills the objectives, it’s up to you!
+
+*2.* Look at any pre-read links you didn’t have time for. Look at any links in the notebook that you’re curious about.
+
+*3.* Think about ideas for your portfolio project. You will choose your own labeled, tabular dataset, train a predictive model, and publish a blog post or web app with visualizations to explain your model.
+
+You need to find a labeled dataset before July 29, so you’ve got time, but it’s not too early to start looking now!
+
+Here’s the info I gave DS4, which I’ll be updating for you: https://gist.github.com/rrherr/e1e6c68b2cee9408ae04bac9aa368808
+
+And check out the awesome Plotly Dash app made by George, Han, & Wenjing! https://tragically-eh-20397.herokuapp.com/
+
+===========================================================================================
+
+Quinn [11:01 AM]  
+@channel Welcome to ~mx+b~ *Linear Models*   
+https://lambdaschool.zoom.us/j/8593527401   
+
+Quinn [11:20 AM]  
+notebook for anyone who missed it https://lambdaschoolstudents.slack.com/archives/GGUTEGALS/p1562601705196900  
+Ryan Herr  
+@here You can follow along live with me on Google Colab: https://colab.research.google.com/drive/1ToaaJAJu3KDDcyy1uLrC5-i9Omt1z066  
+
+Ryan Herr [10:49 AM]  
+@channel Here’s the Github repo with today’s lesson notebook! https://github.com/LambdaSchool/DS-Unit-2-Linear-Models  
+
+Ryan Herr [11:04 AM]  
+Hello, I’m excited to do Predictive Modeling with DS5! I’ll just introduce myself here:  
+
+My data science career began at State Farm, a Fortune 50 insurance company. I started learning in 2012 and officially earned the title in 2015. 
+
+Out of 20 data scientists on their inaugural team, I was one of only two with just a Bachelor’s degree. I didn’t have the time, money, or mobility for a “traditional” Master’s, but I didn’t give up. I made the career change, and I want to help Lambda School students do the same!  
+
+I love to teach! I’ve been a K-8 teacher, bootcamp mentor, instructional designer, and conference speaker. 
+
+I have 4 years experience doing data wrangling, exploratory data analysis, visualization, and machine learning in Python, and 30 years playing with code in a variety of languages.  
+
+I’ve also interviewed and hired data science candidates. I can help students through this process, so you get a great job!  
+
+My hobby is playing banjo. I live in Normal, Illinois (2 hours south of Chicago) with my spouse and 5 kids.  
+
+Feel free to connect on social media!  
+https://twitter.com/rrherr  
+https://www.linkedin.com/in/ryan-herr-b5a8a77/  
+https://rrherr.github.io/  
+
+Ryan Herr [11:01 AM]  
+@here You can follow along live with me on Google Colab:   
+https://colab.research.google.com/drive/1ToaaJAJu3KDDcyy1uLrC5-i9Omt1z066   
+
+===========================================================================================   
+
+Kathleen Hunt [11:22 AM]  
+Thanks for joining today, @here! You can view the recording here: https://youtu.be/WXuvOYJ7yEQ  
+
+For this week’s assignment, *update your portfolio and artifacts!* Make sure that any Build Week and Labs projects are included. I’m attaching a PDF of today’s slides where you can find more on what to include in each artifact, and what is expected for your track.
+
+*Form to request a code for a free domain through namecheap:* https://forms.gle/id6BuwcoAg9tEVw56
+*If you’ve already purchased one and cost is a concern:* https://join.my.expensify.com/?team=7B24693511C64F1D&thanks=amneet%40lambdaschool.com
+
+>*- Portfolio rubric:* https://drive.google.com/file/d/1g24hcozfJLAMPHIlFRo2RDFstpiZW-p8/view?usp=sharing
+>*- Blog rubric:* https://drive.google.com/file/d/1ovpUZXfzv9YetKVuFFLBIuCrf4uV396u/view?usp=sharing
+>*- GitHub rubric:* https://drive.google.com/file/d/1JOSIkz7PxLqs-xeT7xenLFnviDHrBXdF/view?usp=sharing
+>*- App Store/Google Play Store rubric:* https://drive.google.com/file/d/1RiMf5gFViTHKD0j6jrCApYi9XvVaERS-/view?usp=sharing
+>*- Social media rubric:* https://drive.google.com/file/d/1CNfnQ-r6GV3vjx-8t0h8FbReczzRChth/view?usp=sharing
+
+Your portfolio and artifacts don’t have to be a finished version, but should be something you would feel confident showing to someone in the field. This means proofread for typos/readability, have a clean layout, represents “you” (has some unique flair)
+
+- If your portfolios and artifacts are already up to date, post in your cohort or sprint channel to find another peer who is also done, and swap materials to offer feedback to one another
+- Link to your portfolio and artifacts with your sprint retrospective
