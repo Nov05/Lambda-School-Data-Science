@@ -41,5 +41,6 @@
 2019-06-27  
 2019-06-28 Unit 1 Sprint 5 Presentation  
 
-2019-07-08 Unit 2 Sprint 1 Module 1: Intro to Predictive Modeling: [Video](https://www.youtube.com/watch?v=yfhqMqOVNn0)/[Notebook](https://colab.research.google.com/drive/1ToaaJAJu3KDDcyy1uLrC5-i9Omt1z066)  
+2019-07-08 Unit 2 Sprint 1 Module 1: Intro to Predictive Modeling: [Video](https://youtu.be/6uczw7tgJys)/[Notebook](https://colab.research.google.com/drive/1ToaaJAJu3KDDcyy1uLrC5-i9Omt1z066)  
+2019-07-09 Unit 2 Sprint 1 Module 2: Doing Linear Regression:  [Video](https://youtu.be/QX7WqpVF0mo)  
 
