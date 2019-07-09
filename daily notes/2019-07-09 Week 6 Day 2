@@ -1,0 +1,32 @@
+
+2019-07-09 Week 6 Day 2
+Unit 2 Sprint 1 Module 2 Regression 1
+
+Ryan Herr [10:57 AM]  
+@here Today’s lesson notebook is in the Github repo:   
+https://github.com/LambdaSchool/DS-Unit-2-Linear-Models/tree/master/module2-doing-linear-regression
+
+You can follow along live with me on Google Colab:   
+https://colab.research.google.com/drive/1-pEuUGAi0EB2u95DYr24PcoZpNFjpXuW
+
+==================================================
+
+Quinn [9:06 AM]  
+@here the unofficial video repository only for when youtube takes more than 4 hours to process   https://www.dropbox.com/sh/vfo9rygp232zgxa/AAAD_P547Ll8pdYRYJKQiFdMa?dl=0  
+
+==================================================
+
+Quinn [10:40 AM]  
+@channel you may have seen links posted this morning, there was an *exploit* discovered for *OSx* users of zoom. not the _best_ you can do, but the _least_ you can do if you're an OSx user is
+
+1. look for a setting "automatically turn camera on upon joining", and disable it  
+2. be *extra extra extra* careful about opening zoom links. there _is_, in theory, a way for a malicious zoom link to lead to arbitrary malicious code being executed on your machine! but that'd only happen if you _saw_ a meeting being opened  
+from zoom themselves:  
+```Of note, because the Zoom client user interface runs in the foreground upon launch, it would be readily apparent to the user that they had unintentionally joined a meeting and they could change their video settings or leave immediately. Also of note, we have no indication that this has ever happened.```
+3. *reinstall zoom over the next day or two*. completely uninstalling it is a good idea.  
+
+Further reading for when you have time:  
+1. https://medium.com/@jonathan.leitschuh/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5  
+2. https://blog.zoom.us/wordpress/2019/07/08/response-to-video-on-concern/  
+
+(and, again, note that this is the _least_ you can do and *not* the _best_ you can do-- some of it gets a little advanced and we don't want to stress people out)   
