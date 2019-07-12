@@ -35,10 +35,10 @@
 2019-06-20 Unit 1 Sprint 4 Module 4:  
 2019-06-21 Unit 1 Sprint 4 Challenge  
 
-2019-06-24  
-2019-06-25  
-2019-06-26  
-2019-06-27  
+2019-06-24 Unit 1 Sprint 5 Data Storytelling    
+2019-06-25 Unit 1 Sprint 5   
+2019-06-26 Unit 1 Sprint 5   
+2019-06-27 Unit 1 Sprint 5   
 2019-06-28 Unit 1 Sprint 5 Presentation  
 
 2019-07-08 Unit 2 Sprint 1 Module 1: Intro to Predictive Modeling: [Video](https://youtu.be/6uczw7tgJys)/[Notebook](https://colab.research.google.com/drive/1ToaaJAJu3KDDcyy1uLrC5-i9Omt1z066)  
