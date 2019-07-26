@@ -3,7 +3,7 @@
 ### Precourse DS  
 1.  Intro to Data Science
 
-DS - Statistics Fundamentals  
+### DS - Statistics Fundamentals  
 1.  Dealing with Data  
 2.  Data Wrangling and Storytelling  
 3.  Statistical Tests and Experiments  
@@ -22,7 +22,7 @@ DS - Statistics Fundamentals
 3.  Productization and Cloud  
 4.  DS Unit 3 Build  
 
-DS - Machine Learning  
+### DS - Machine Learning  
 1.  Natural Language Processing  
 2.  Neural Network Foundations  
 3.  Major Neural Network Architectures  
