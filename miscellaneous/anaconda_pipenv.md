@@ -11,6 +11,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `pipenv install` 
 * `pipenv shell`
 * `python run.py`
+4. Ctrl+C stop running run.py  
 
 ```
 (base) PS C:\Users\*> cd d:/lambdaschool  
