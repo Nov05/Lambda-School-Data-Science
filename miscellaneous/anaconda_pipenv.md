@@ -2,7 +2,7 @@
 (base) PS C:\Users\*> cd d:/lambdaschool  
 (base) PS D:\lambdaschool> cd github  
 (base) PS D:\lambdaschool\github> cd..  
-(base) PS D:\lambdaschool> *pip install pipenv*  
+(base) PS D:\lambdaschool> **pip install pipenv**  
 Collecting pipenv    
   Downloading https://files.pythonhosted.org/packages/13/b4/3ffa55f77161cff9a5220f162670f7c5eb00df52e00939e203f601b0f579/pipenv-2018.11.26-py3-none-any.whl (5.2MB)
      |████████████████████████████████| 5.2MB 2.2MB/s  
