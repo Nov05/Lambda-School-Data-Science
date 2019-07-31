@@ -20,9 +20,9 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 Collecting pipenv    
   Downloading https://files.pythonhosted.org/packages/13/b4/3ffa55f77161cff9a5220f162670f7c5eb00df52e00939e203f601b0f579/pipenv-2018.11.26-py3-none-any.whl (5.2MB)
      |████████████████████████████████| 5.2MB 2.2MB/s  
-Requirement already satisfied: certifi in c:\users\guido\anaconda3\lib\site-packages (from pipenv) (2019.6.16)  
-Requirement already satisfied: pip>=9.0.1 in c:\users\guido\anaconda3\lib\site-packages (from pipenv) (19.1.1)  
-Requirement already satisfied: setuptools>=36.2.1 in c:\users\guido\anaconda3\lib\site-packages (from pipenv) (41.0.1)  
+Requirement already satisfied: certifi in c:\users\*\anaconda3\lib\site-packages (from pipenv) (2019.6.16)  
+Requirement already satisfied: pip>=9.0.1 in c:\users\*\anaconda3\lib\site-packages (from pipenv) (19.1.1)  
+Requirement already satisfied: setuptools>=36.2.1 in c:\users\*\anaconda3\lib\site-packages (from pipenv) (41.0.1)  
 Collecting virtualenv-clone>=0.2.5 (from pipenv)  
   Downloading https://files.pythonhosted.org/packages/ba/f8/50c2b7dbc99e05fce5e5b9d9a31f37c988c99acd4e8dedd720b7b8d4011d/virtualenv_clone-0.5.3-py2.py3-none-any.whl
 Collecting virtualenv (from pipenv)  
