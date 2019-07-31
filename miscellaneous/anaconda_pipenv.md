@@ -1,7 +1,7 @@
 
 https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/2019-07-29%20Week%209%20Day%201.md  
 
-Windows 10  
+## Windows 10  
 1. install Anaconda3  
 2. Windows Start Menu Search: run "Anaconda Powershell Prompt"  
 3. in prompt:  
