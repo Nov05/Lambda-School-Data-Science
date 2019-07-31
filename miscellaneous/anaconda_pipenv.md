@@ -3,7 +3,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 
 ## Windows 10  
 1. install Anaconda3  
-2. Windows Start Menu Search: run "Anaconda Powershell Prompt"  
+2. Windows Start Menu Search: type and run "Anaconda Powershell Prompt"  
 3. in prompt:  
 * `pip install pipenv`   
 * `git clone https://github.com/rrherr/dash-template`
