@@ -5,7 +5,8 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 1. install Anaconda3  
 2. Windows Start Menu Search: type and run "Anaconda Powershell Prompt"  
 3. in the prompt, type the following command:  
-* `pip install pipenv`   
+* `pip install pipenv` (run only once)     
+* `cd <path>` (navigate to the folder where you want to create a local folder for your github repo)
 * `git clone https://github.com/rrherr/dash-template` (or some other github repo)  
 * `cd dash-template` (or some other repo local folder)  
 * `pipenv install` (run only once to create a pip virtual environment for this repo/project)  
