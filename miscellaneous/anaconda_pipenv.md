@@ -15,7 +15,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 5. in the pip virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE   
 
 P.S. check your pip virtual environment files  
-C:\Users\*\.virtualenvs\DS-Unit-2-Sprint-4-Project-vhTEmim-\  
+`C:\Users\*\.virtualenvs\DS-Unit-2-Sprint-4-Project-vhTEmim-\`  
 
 https://thoughtbot.com/blog/how-to-manage-your-python-projects-with-pipenv  
 
