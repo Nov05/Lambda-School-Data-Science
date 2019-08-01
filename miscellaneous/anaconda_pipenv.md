@@ -6,11 +6,11 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 2. Windows Start Menu Search: type and run "Anaconda Powershell Prompt"  
 3. in the prompt:  
 * `pip install pipenv`   
-* `git clone https://github.com/rrherr/dash-template`
-* `cd dash-template`
-* `pipenv install` 
-* `pipenv shell`
-* `python run.py`
+* `git clone https://github.com/rrherr/dash-template` (or some other github repo)  
+* `cd dash-template` (or some other repo local folder)  
+* `pipenv install` (run only once to create a pip virtual environment)  
+* `pipenv shell` (run every time you want to start your pip virtual environment)  
+* `python run.py`  
 4. press Ctrl+C to stop running run.py (`pipenv shell` to activate the virtual environment again`  
 5. in the pip virtual environment, `jupyter notebook` to start Jupyter Notebook IDE   
 
