@@ -1,0 +1,31 @@
+
+2019-08-01 Week 9 Day 4    
+Unit 2 Sprint 4 
+Project Week   
+
+
+Ryan Herr 11:10 AM  
+@here Anyone want help? Please let me know in this channel, and push your code to GitHub so I can run it and replicate the problem.  
+```
+git add .
+git commit -m "commit message"
+git push
+```
+
+Quinn:lambda-pm: 11:52 AM  
+@here Please welcome @Ben Manning to the party as our instructor for the Data Engineering adventure!  
+Aaron Gallant:lambda-red:  1 hour ago  
+In case you missed, he gave a great brown bag lecture on exploratory data analysis:   
+https://youtu.be/jSv1U0WEHlU  
+YouTubeYouTube | Lambda School  
+Lambda School Data Science - Ben Manning, Guest Lecture, Exploratory Data Analysis  
+
+Rudy Enriquez:lambda-pm: 7:33 AM  
+Section: DS[1,2,3,4,5,6]  
+Time: 5:30-7:30 AM Pacific (Tues or Thurs)  
+PM: @Rudy Enriquez  
+Topic_0: Morning Coffee  
+Topic_1: Chit-Chat  
+Topic_2: Your choice of topic (first come first serve)  
+Meeting Link: https://lambdaschool.zoom.us/j/687620144  
+Slack Chat: join us in #ds_bh  
