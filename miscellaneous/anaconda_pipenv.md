@@ -11,7 +11,8 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `pipenv install` 
 * `pipenv shell`
 * `python run.py`
-4. press Ctrl+C to stop running run.py  
+4. press Ctrl+C to stop running run.py (`pipenv shell` to activate the virtual environment again`  
+5. in the pip virtual environment, `jupyter notebook` to start Jupyter Notebook IDE   
 
 https://thoughtbot.com/blog/how-to-manage-your-python-projects-with-pipenv  
 
