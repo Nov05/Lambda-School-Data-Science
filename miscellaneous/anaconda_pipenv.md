@@ -15,6 +15,8 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 5. `deactivate` to deactivate the virtual environment  
 6. `conda info --envs`  
 
+https://thoughtbot.com/blog/how-to-manage-your-python-projects-with-pipenv  
+
 ```
 (base) PS C:\Users\*> cd d:/lambdaschool  
 (base) PS D:\lambdaschool> cd github  
