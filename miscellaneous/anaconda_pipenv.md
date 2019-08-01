@@ -11,7 +11,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `pipenv install` (run only once to create a pip virtual environment)  
 * `pipenv shell` (run every time you want to start your pip virtual environment)  
 * `python run.py`  
-4. press Ctrl+C to stop running run.py (`pipenv shell` to activate the virtual environment again`  
+4. press Ctrl+C to stop running run.py (`pipenv shell` to activate the virtual environment again)  
 5. in the pip virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE   
 
 https://thoughtbot.com/blog/how-to-manage-your-python-projects-with-pipenv  
