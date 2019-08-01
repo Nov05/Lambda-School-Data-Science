@@ -12,6 +12,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `pipenv shell`
 * `python run.py`
 4. press Ctrl+C to stop running run.py  
+5. `deactivate` to deactivate the virtual environment  
 
 ```
 (base) PS C:\Users\*> cd d:/lambdaschool  
