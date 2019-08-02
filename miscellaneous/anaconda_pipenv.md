@@ -1,4 +1,4 @@
-
+2019-07-31  
 https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/2019-07-29%20Week%209%20Day%201.md  
 
 ## Windows 10  
