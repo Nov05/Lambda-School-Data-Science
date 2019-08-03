@@ -13,7 +13,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `pipenv shell` (run it every time you want to start your pipenv virtual environment)  
 * `python run.py` (in the example it contains a Plotly Dash app, so run it every time you want to start the app)   
 4. press Ctrl+C to stop running run.py (type `pipenv shell` to activate the virtual environment again)  
-5. in a new prompt, start the same pip virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE 
+5. in a new prompt, start the same pipenv virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE 
 6. you might need to `pip install scipy` for plotly 4.0.0  
 7. `pipenv lock --requirements > requirements.txt` to generate requirements.txt for app deployment  
 
