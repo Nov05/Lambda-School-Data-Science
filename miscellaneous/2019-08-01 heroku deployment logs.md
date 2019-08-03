@@ -28,6 +28,7 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project
 ```
 
 2. visit the app at `https://hours-estimate.herokuapp.com/`  
+
 3. if you saw error and would need to check the logs
 * download and install the Heroku Command Line (CLI)  
 https://devcenter.heroku.com/articles/heroku-cli  
