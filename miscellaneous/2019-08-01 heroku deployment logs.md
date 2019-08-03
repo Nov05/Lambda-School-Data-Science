@@ -8,7 +8,7 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project
 
 1. navigate: Heroku > `hours-estimate`(or your own app name) > Activity > View build log  
 
-**Heroku App Build Log**
+### Heroku App Build Log
 ```
 -----> Deleting 2 files matching .slugignore patterns.
 -----> Python app detected
@@ -50,7 +50,8 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project/blob/master/requirements.txt
 2019-08-02T10:55:06.885673+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
 ``` 
 
-**Heroku App's Logs**
+### Heroku App's Logs
+
 ```
 Microsoft Windows [Version 10.0.17763.615]
 (c) 2018 Microsoft Corporation. All rights reserved.
