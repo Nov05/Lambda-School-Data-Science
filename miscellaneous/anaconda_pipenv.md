@@ -8,7 +8,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `pip install pipenv` (run only once)     
 * `cd <path>` (navigate to the folder where you want to create a local folder for your github repo)
 * `git clone https://github.com/rrherr/dash-template` (or some other github repo)  
-* `cd dash-template` (navigate to the local folder)  
+* `cd dash-template` (navigate to the local folder just created by `git clone` command)  
 * `pipenv install` (run it only once to create a pip virtual environment for this repo/project)  
 * `pipenv shell` (run it every time you want to start your pipenv virtual environment)  
 * `python run.py` (in the example it contains a Plotly Dash app, so run it every time you want to start the app)   
