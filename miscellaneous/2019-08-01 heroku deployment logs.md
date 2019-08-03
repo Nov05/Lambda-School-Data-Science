@@ -1,4 +1,5 @@
 2019-08-01  
+**Check Heroku Logs and Debug**
 
 Dash App on Heroku  
 https://hours-estimate.herokuapp.com/  
