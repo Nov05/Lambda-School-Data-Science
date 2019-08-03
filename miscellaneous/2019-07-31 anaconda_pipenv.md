@@ -23,6 +23,7 @@ P.S. check your pip virtual environment files
 `C:\Users\*\.virtualenvs\DS-Unit-2-Sprint-4-Project-vhTEmim-\`  
 
 https://thoughtbot.com/blog/how-to-manage-your-python-projects-with-pipenv  
+https://github.com/pypa/pipenv/issues/3493  
 
 ```
 (base) PS C:\Users\*> cd d:/lambdaschool  
