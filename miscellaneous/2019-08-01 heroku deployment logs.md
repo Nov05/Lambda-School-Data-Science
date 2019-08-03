@@ -46,293 +46,20 @@ https://devcenter.heroku.com/articles/logging#log-history-limits
 https://github.com/Nov05/DS-Unit-2-Sprint-4-Project/blob/master/requirements.txt  
 
 ```
-2019-08-02T10:39:28.704704+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
-2019-08-02T10:39:28.704706+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
+2019-08-02T10:55:06.885671+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
+2019-08-02T10:55:06.885673+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
 ``` 
+
 **Heroku App's Logs**
 ```
 Microsoft Windows [Version 10.0.17763.615]
 (c) 2018 Microsoft Corporation. All rights reserved.
 
-C:\Users\*>heroku logs -a hours-estimate -n 2000
-2019-08-02T10:27:53.305931+00:00 app[web.1]: self.halt(reason=inst.reason, exit_status=inst.exit_status)
-2019-08-02T10:27:53.305951+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 345, in halt
-2019-08-02T10:27:53.306168+00:00 app[web.1]: self.stop()
-2019-08-02T10:27:53.306173+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 393, in stop
-2019-08-02T10:27:53.306364+00:00 app[web.1]: time.sleep(0.1)
-2019-08-02T10:27:53.306383+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 245, in handle_chld
-2019-08-02T10:27:53.306603+00:00 app[web.1]: self.reap_workers()
-2019-08-02T10:27:53.306625+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
-2019-08-02T10:27:53.306852+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-2019-08-02T10:27:53.306892+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-2019-08-02T10:27:53.400644+00:00 heroku[web.1]: State changed from up to crashed
-2019-08-02T10:27:53.265140+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=hours-estimate.herokuapp.com request_id=8f6b509a-1d26-4ee7-a335-93e473f3dbb0 fwd="76.85.0.51" dyno=web.1 connect=1ms service=2494ms status=503 bytes=0 protocol=https
-2019-08-02T10:27:53.380985+00:00 heroku[web.1]: Process exited with status 1
-2019-08-02T10:27:54.226946+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=hours-estimate.herokuapp.com request_id=4a4e506d-675c-44a1-9e09-b6e412ede204 fwd="76.85.0.51" dyno= connect= service= status=503 bytes= protocol=https
-2019-08-02T10:39:14.690497+00:00 heroku[web.1]: State changed from crashed to starting
-2019-08-02T10:39:23.973860+00:00 heroku[web.1]: Starting process with command `gunicorn run:server`
-2019-08-02T10:39:25.809422+00:00 app[web.1]: [2019-08-02 10:39:25 +0000] [4] [INFO] Starting gunicorn 19.9.0
-2019-08-02T10:39:25.810043+00:00 app[web.1]: [2019-08-02 10:39:25 +0000] [4] [INFO] Listening at: http://0.0.0.0:18778 (4)
-2019-08-02T10:39:25.810139+00:00 app[web.1]: [2019-08-02 10:39:25 +0000] [4] [INFO] Using worker: sync
-2019-08-02T10:39:25.814742+00:00 app[web.1]: [2019-08-02 10:39:25 +0000] [10] [INFO] Booting worker with pid: 10
-2019-08-02T10:39:25.844232+00:00 app[web.1]: [2019-08-02 10:39:25 +0000] [11] [INFO] Booting worker with pid: 11
-2019-08-02T10:39:26.355493+00:00 heroku[web.1]: State changed from starting to up
-2019-08-02T10:39:28.704590+00:00 app[web.1]: [2019-08-02 10:39:28 +0000] [10] [ERROR] Exception in worker process
-2019-08-02T10:39:28.704638+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:39:28.704641+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
-2019-08-02T10:39:28.704643+00:00 app[web.1]: worker.init_process()
-2019-08-02T10:39:28.704645+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
-2019-08-02T10:39:28.704647+00:00 app[web.1]: self.load_wsgi()
-2019-08-02T10:39:28.704650+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
-2019-08-02T10:39:28.704652+00:00 app[web.1]: self.wsgi = self.app.wsgi()
-2019-08-02T10:39:28.704654+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2019-08-02T10:39:28.704656+00:00 app[web.1]: self.callable = self.load()
-2019-08-02T10:39:28.704658+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
-2019-08-02T10:39:28.704661+00:00 app[web.1]: return self.load_wsgiapp()
-2019-08-02T10:39:28.704663+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
-2019-08-02T10:39:28.704682+00:00 app[web.1]: return util.import_app(self.app_uri)
-2019-08-02T10:39:28.704684+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
-2019-08-02T10:39:28.704686+00:00 app[web.1]: __import__(module)
-2019-08-02T10:39:28.704689+00:00 app[web.1]: File "/app/run.py", line 10, in <module>
-2019-08-02T10:39:28.704691+00:00 app[web.1]: from pages import index, predictions, insights, process
-2019-08-02T10:39:28.704693+00:00 app[web.1]: File "/app/pages/index.py", line 60, in <module>
-2019-08-02T10:39:28.704696+00:00 app[web.1]: fig = ff.create_distplot(hist_data, group_labels, bin_size=0.1, show_rug=False)
-2019-08-02T10:39:28.704698+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 184, in create_distplot
-2019-08-02T10:39:28.704700+00:00 app[web.1]: validate_distplot(hist_data, curve_type)
-2019-08-02T10:39:28.704702+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 49, in validate_distplot
-2019-08-02T10:39:28.704704+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
-2019-08-02T10:39:28.704706+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
-2019-08-02T10:39:28.704764+00:00 app[web.1]: [2019-08-02 10:39:28 +0000] [10] [INFO] Worker exiting (pid: 10)
-2019-08-02T10:39:28.850779+00:00 app[web.1]: [2019-08-02 10:39:28 +0000] [11] [ERROR] Exception in worker process
-2019-08-02T10:39:28.850785+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:39:28.850792+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
-2019-08-02T10:39:28.850795+00:00 app[web.1]: worker.init_process()
-2019-08-02T10:39:28.850797+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
-2019-08-02T10:39:28.850799+00:00 app[web.1]: self.load_wsgi()
-2019-08-02T10:39:28.850801+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
-2019-08-02T10:39:28.850803+00:00 app[web.1]: self.wsgi = self.app.wsgi()
-2019-08-02T10:39:28.850806+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2019-08-02T10:39:28.850807+00:00 app[web.1]: self.callable = self.load()
-2019-08-02T10:39:28.850809+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
-2019-08-02T10:39:28.850811+00:00 app[web.1]: return self.load_wsgiapp()
-2019-08-02T10:39:28.850813+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
-2019-08-02T10:39:28.850815+00:00 app[web.1]: return util.import_app(self.app_uri)
-2019-08-02T10:39:28.850816+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
-2019-08-02T10:39:28.850818+00:00 app[web.1]: __import__(module)
-2019-08-02T10:39:28.850819+00:00 app[web.1]: File "/app/run.py", line 10, in <module>
-2019-08-02T10:39:28.850821+00:00 app[web.1]: from pages import index, predictions, insights, process
-2019-08-02T10:39:28.850823+00:00 app[web.1]: File "/app/pages/index.py", line 60, in <module>
-2019-08-02T10:39:28.850824+00:00 app[web.1]: fig = ff.create_distplot(hist_data, group_labels, bin_size=0.1, show_rug=False)
-2019-08-02T10:39:28.850826+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 184, in create_distplot
-2019-08-02T10:39:28.850828+00:00 app[web.1]: validate_distplot(hist_data, curve_type)
-2019-08-02T10:39:28.850829+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 49, in validate_distplot
-2019-08-02T10:39:28.850831+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
-2019-08-02T10:39:28.850832+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
-2019-08-02T10:39:28.851083+00:00 app[web.1]: [2019-08-02 10:39:28 +0000] [11] [INFO] Worker exiting (pid: 11)
-2019-08-02T10:39:28.990986+00:00 app[web.1]: [2019-08-02 10:39:28 +0000] [4] [INFO] Shutting down: Master
-2019-08-02T10:39:28.991074+00:00 app[web.1]: [2019-08-02 10:39:28 +0000] [4] [INFO] Reason: Worker failed to boot.
-2019-08-02T10:39:29.087818+00:00 heroku[web.1]: State changed from up to crashed
-2019-08-02T10:39:29.065981+00:00 heroku[web.1]: Process exited with status 3
-2019-08-02T10:48:06.000000+00:00 app[api]: Build started by user arwen_liu@hotmail.com
-2019-08-02T10:48:58.074107+00:00 app[api]: Deploy 35381bf2 by user arwen_liu@hotmail.com
-2019-08-02T10:48:58.074107+00:00 app[api]: Release v4 created by user arwen_liu@hotmail.com
-2019-08-02T10:48:58.704549+00:00 heroku[web.1]: State changed from crashed to starting
-2019-08-02T10:49:07.446832+00:00 heroku[web.1]: Starting process with command `gunicorn run:server`
-2019-08-02T10:49:09.158206+00:00 app[web.1]: [2019-08-02 10:49:09 +0000] [4] [INFO] Starting gunicorn 19.9.0
-2019-08-02T10:49:09.158780+00:00 app[web.1]: [2019-08-02 10:49:09 +0000] [4] [INFO] Listening at: http://0.0.0.0:32484 (4)
-2019-08-02T10:49:09.158876+00:00 app[web.1]: [2019-08-02 10:49:09 +0000] [4] [INFO] Using worker: sync
-2019-08-02T10:49:09.162743+00:00 app[web.1]: [2019-08-02 10:49:09 +0000] [10] [INFO] Booting worker with pid: 10
-2019-08-02T10:49:09.256981+00:00 app[web.1]: [2019-08-02 10:49:09 +0000] [11] [INFO] Booting worker with pid: 11
-2019-08-02T10:49:09.707634+00:00 heroku[web.1]: State changed from starting to up
-2019-08-02T10:49:15.653779+00:00 app[web.1]: [2019-08-02 10:49:15 +0000] [10] [ERROR] Exception in worker process
-2019-08-02T10:49:15.653816+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:49:15.653818+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
-2019-08-02T10:49:15.653820+00:00 app[web.1]: worker.init_process()
-2019-08-02T10:49:15.653822+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
-2019-08-02T10:49:15.653823+00:00 app[web.1]: self.load_wsgi()
-2019-08-02T10:49:15.653825+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
-2019-08-02T10:49:15.653826+00:00 app[web.1]: self.wsgi = self.app.wsgi()
-2019-08-02T10:49:15.653828+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2019-08-02T10:49:15.653830+00:00 app[web.1]: self.callable = self.load()
-2019-08-02T10:49:15.653831+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
-2019-08-02T10:49:15.653833+00:00 app[web.1]: return self.load_wsgiapp()
-2019-08-02T10:49:15.653834+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
-2019-08-02T10:49:15.653836+00:00 app[web.1]: return util.import_app(self.app_uri)
-2019-08-02T10:49:15.653837+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
-2019-08-02T10:49:15.653839+00:00 app[web.1]: __import__(module)
-2019-08-02T10:49:15.653840+00:00 app[web.1]: File "/app/run.py", line 10, in <module>
-2019-08-02T10:49:15.653842+00:00 app[web.1]: from pages import index, predictions, insights, process
-2019-08-02T10:49:15.653844+00:00 app[web.1]: File "/app/pages/index.py", line 60, in <module>
-2019-08-02T10:49:15.653845+00:00 app[web.1]: fig = ff.create_distplot(hist_data, group_labels, bin_size=0.1, show_rug=False)
-2019-08-02T10:49:15.653847+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 184, in create_distplot
-2019-08-02T10:49:15.653849+00:00 app[web.1]: validate_distplot(hist_data, curve_type)
-2019-08-02T10:49:15.653863+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 49, in validate_distplot
-2019-08-02T10:49:15.653865+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
-2019-08-02T10:49:15.653866+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
-2019-08-02T10:49:15.653945+00:00 app[web.1]: [2019-08-02 10:49:15 +0000] [10] [INFO] Worker exiting (pid: 10)
-2019-08-02T10:49:15.903807+00:00 app[web.1]: [2019-08-02 10:49:15 +0000] [11] [ERROR] Exception in worker process
-2019-08-02T10:49:15.903810+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:49:15.903812+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
-2019-08-02T10:49:15.903814+00:00 app[web.1]: worker.init_process()
-2019-08-02T10:49:15.903815+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
-2019-08-02T10:49:15.903817+00:00 app[web.1]: self.load_wsgi()
-2019-08-02T10:49:15.903818+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
-2019-08-02T10:49:15.903820+00:00 app[web.1]: self.wsgi = self.app.wsgi()
-2019-08-02T10:49:15.903822+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2019-08-02T10:49:15.903823+00:00 app[web.1]: self.callable = self.load()
-2019-08-02T10:49:15.903825+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
-2019-08-02T10:49:15.903828+00:00 app[web.1]: return self.load_wsgiapp()
-2019-08-02T10:49:15.903830+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
-2019-08-02T10:49:15.903831+00:00 app[web.1]: return util.import_app(self.app_uri)
-2019-08-02T10:49:15.903833+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
-2019-08-02T10:49:15.903835+00:00 app[web.1]: __import__(module)
-2019-08-02T10:49:15.903836+00:00 app[web.1]: File "/app/run.py", line 10, in <module>
-2019-08-02T10:49:15.903838+00:00 app[web.1]: from pages import index, predictions, insights, process
-2019-08-02T10:49:15.903840+00:00 app[web.1]: File "/app/pages/index.py", line 60, in <module>
-2019-08-02T10:49:15.903841+00:00 app[web.1]: fig = ff.create_distplot(hist_data, group_labels, bin_size=0.1, show_rug=False)
-2019-08-02T10:49:15.903843+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 184, in create_distplot
-2019-08-02T10:49:15.903845+00:00 app[web.1]: validate_distplot(hist_data, curve_type)
-2019-08-02T10:49:15.903846+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 49, in validate_distplot
-2019-08-02T10:49:15.903848+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
-2019-08-02T10:49:15.903849+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
-2019-08-02T10:49:15.903970+00:00 app[web.1]: [2019-08-02 10:49:15 +0000] [11] [INFO] Worker exiting (pid: 11)
-2019-08-02T10:49:16.046615+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:49:16.046634+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 210, in run
-2019-08-02T10:49:16.046928+00:00 app[web.1]: self.sleep()
-2019-08-02T10:49:16.046934+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 360, in sleep
-2019-08-02T10:49:16.047143+00:00 app[web.1]: ready = select.select([self.PIPE[0]], [], [], 1.0)
-2019-08-02T10:49:16.047147+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 245, in handle_chld
-2019-08-02T10:49:16.047299+00:00 app[web.1]: self.reap_workers()
-2019-08-02T10:49:16.047318+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
-2019-08-02T10:49:16.047542+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-2019-08-02T10:49:16.047593+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-2019-08-02T10:49:16.047597+00:00 app[web.1]:
-2019-08-02T10:49:16.047598+00:00 app[web.1]: During handling of the above exception, another exception occurred:
-2019-08-02T10:49:16.047600+00:00 app[web.1]:
-2019-08-02T10:49:16.047603+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:49:16.047605+00:00 app[web.1]: File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
-2019-08-02T10:49:16.047717+00:00 app[web.1]: sys.exit(run())
-2019-08-02T10:49:16.047724+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 61, in run
-2019-08-02T10:49:16.047847+00:00 app[web.1]: WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
-2019-08-02T10:49:16.047851+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 223, in run
-2019-08-02T10:49:16.048015+00:00 app[web.1]: super(Application, self).run()
-2019-08-02T10:49:16.048021+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 72, in run
-2019-08-02T10:49:16.048132+00:00 app[web.1]: Arbiter(self).run()
-2019-08-02T10:49:16.048134+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 232, in run
-2019-08-02T10:49:16.048282+00:00 app[web.1]: self.halt(reason=inst.reason, exit_status=inst.exit_status)
-2019-08-02T10:49:16.048288+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 345, in halt
-2019-08-02T10:49:16.048472+00:00 app[web.1]: self.stop()
-2019-08-02T10:49:16.048478+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 393, in stop
-2019-08-02T10:49:16.048666+00:00 app[web.1]: time.sleep(0.1)
-2019-08-02T10:49:16.048673+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 245, in handle_chld
-2019-08-02T10:49:16.048814+00:00 app[web.1]: self.reap_workers()
-2019-08-02T10:49:16.048820+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
-2019-08-02T10:49:16.049077+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-2019-08-02T10:49:16.049103+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-2019-08-02T10:49:16.133188+00:00 heroku[web.1]: State changed from up to crashed
-2019-08-02T10:49:16.116494+00:00 heroku[web.1]: Process exited with status 1
-2019-08-02T10:49:22.000000+00:00 app[api]: Build succeeded
-2019-08-02T10:49:42.846372+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=hours-estimate.herokuapp.com request_id=182dcc77-6a6b-4939-b4f6-6e87ad8c870a fwd="76.85.0.51" dyno= connect= service= status=503 bytes= protocol=https
-2019-08-02T10:49:43.309753+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=hours-estimate.herokuapp.com request_id=eff6960c-54f7-44bb-92a7-b88f8441e32b fwd="76.85.0.51" dyno= connect= service= status=503 bytes= protocol=https
-2019-08-02T10:51:02.712614+00:00 heroku[web.1]: State changed from crashed to starting
-2019-08-02T10:51:13.388556+00:00 heroku[web.1]: Starting process with command `gunicorn run:server`
-2019-08-02T10:51:15.735788+00:00 app[web.1]: [2019-08-02 10:51:15 +0000] [4] [INFO] Starting gunicorn 19.9.0
-2019-08-02T10:51:15.736631+00:00 app[web.1]: [2019-08-02 10:51:15 +0000] [4] [INFO] Listening at: http://0.0.0.0:15879 (4)
-2019-08-02T10:51:15.736777+00:00 app[web.1]: [2019-08-02 10:51:15 +0000] [4] [INFO] Using worker: sync
-2019-08-02T10:51:15.747061+00:00 app[web.1]: [2019-08-02 10:51:15 +0000] [10] [INFO] Booting worker with pid: 10
-2019-08-02T10:51:15.751389+00:00 app[web.1]: [2019-08-02 10:51:15 +0000] [11] [INFO] Booting worker with pid: 11
-2019-08-02T10:51:17.085023+00:00 heroku[web.1]: State changed from starting to up
-2019-08-02T10:51:23.972389+00:00 app[web.1]: [2019-08-02 10:51:23 +0000] [11] [ERROR] Exception in worker process
-2019-08-02T10:51:23.972420+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:51:23.972430+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
-2019-08-02T10:51:23.972433+00:00 app[web.1]: worker.init_process()
-2019-08-02T10:51:23.972435+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
-2019-08-02T10:51:23.972437+00:00 app[web.1]: self.load_wsgi()
-2019-08-02T10:51:23.972439+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
-2019-08-02T10:51:23.972441+00:00 app[web.1]: self.wsgi = self.app.wsgi()
-2019-08-02T10:51:23.972444+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2019-08-02T10:51:23.972446+00:00 app[web.1]: self.callable = self.load()
-2019-08-02T10:51:23.972448+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
-2019-08-02T10:51:23.972450+00:00 app[web.1]: return self.load_wsgiapp()
-2019-08-02T10:51:23.972451+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
-2019-08-02T10:51:23.972453+00:00 app[web.1]: return util.import_app(self.app_uri)
-2019-08-02T10:51:23.972455+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
-2019-08-02T10:51:23.972457+00:00 app[web.1]: __import__(module)
-2019-08-02T10:51:23.972459+00:00 app[web.1]: File "/app/run.py", line 10, in <module>
-2019-08-02T10:51:23.972462+00:00 app[web.1]: from pages import index, predictions, insights, process
-2019-08-02T10:51:23.972464+00:00 app[web.1]: File "/app/pages/index.py", line 60, in <module>
-2019-08-02T10:51:23.972466+00:00 app[web.1]: fig = ff.create_distplot(hist_data, group_labels, bin_size=0.1, show_rug=False)
-2019-08-02T10:51:23.972471+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 184, in create_distplot
-2019-08-02T10:51:23.972473+00:00 app[web.1]: validate_distplot(hist_data, curve_type)
-2019-08-02T10:51:23.972475+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 49, in validate_distplot
-2019-08-02T10:51:23.972477+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
-2019-08-02T10:51:23.972480+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
-2019-08-02T10:51:23.972550+00:00 app[web.1]: [2019-08-02 10:51:23 +0000] [11] [INFO] Worker exiting (pid: 11)
-2019-08-02T10:51:24.347727+00:00 app[web.1]: [2019-08-02 10:51:24 +0000] [10] [ERROR] Exception in worker process
-2019-08-02T10:51:24.347741+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:51:24.347743+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
-2019-08-02T10:51:24.347746+00:00 app[web.1]: worker.init_process()
-2019-08-02T10:51:24.347748+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
-2019-08-02T10:51:24.347750+00:00 app[web.1]: self.load_wsgi()
-2019-08-02T10:51:24.347752+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
-2019-08-02T10:51:24.347754+00:00 app[web.1]: self.wsgi = self.app.wsgi()
-2019-08-02T10:51:24.347756+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2019-08-02T10:51:24.347758+00:00 app[web.1]: self.callable = self.load()
-2019-08-02T10:51:24.347760+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
-2019-08-02T10:51:24.347762+00:00 app[web.1]: return self.load_wsgiapp()
-2019-08-02T10:51:24.347764+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
-2019-08-02T10:51:24.347766+00:00 app[web.1]: return util.import_app(self.app_uri)
-2019-08-02T10:51:24.347768+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
-2019-08-02T10:51:24.347770+00:00 app[web.1]: __import__(module)
-2019-08-02T10:51:24.347772+00:00 app[web.1]: File "/app/run.py", line 10, in <module>
-2019-08-02T10:51:24.347775+00:00 app[web.1]: from pages import index, predictions, insights, process
-2019-08-02T10:51:24.347777+00:00 app[web.1]: File "/app/pages/index.py", line 60, in <module>
-2019-08-02T10:51:24.347779+00:00 app[web.1]: fig = ff.create_distplot(hist_data, group_labels, bin_size=0.1, show_rug=False)
-2019-08-02T10:51:24.347781+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 184, in create_distplot
-2019-08-02T10:51:24.347783+00:00 app[web.1]: validate_distplot(hist_data, curve_type)
-2019-08-02T10:51:24.347785+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/plotly/figure_factory/_distplot.py", line 49, in validate_distplot
-2019-08-02T10:51:24.347788+00:00 app[web.1]: raise ImportError("FigureFactory.create_distplot requires scipy")
-2019-08-02T10:51:24.347790+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
-2019-08-02T10:51:24.347983+00:00 app[web.1]: [2019-08-02 10:51:24 +0000] [10] [INFO] Worker exiting (pid: 10)
-2019-08-02T10:51:24.516730+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:51:24.516734+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 210, in run
-2019-08-02T10:51:24.517004+00:00 app[web.1]: self.sleep()
-2019-08-02T10:51:24.517010+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 360, in sleep
-2019-08-02T10:51:24.517213+00:00 app[web.1]: ready = select.select([self.PIPE[0]], [], [], 1.0)
-2019-08-02T10:51:24.517219+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 245, in handle_chld
-2019-08-02T10:51:24.517378+00:00 app[web.1]: self.reap_workers()
-2019-08-02T10:51:24.517385+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
-2019-08-02T10:51:24.517631+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-2019-08-02T10:51:24.517671+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-2019-08-02T10:51:24.517677+00:00 app[web.1]:
-2019-08-02T10:51:24.517679+00:00 app[web.1]: During handling of the above exception, another exception occurred:
-2019-08-02T10:51:24.517681+00:00 app[web.1]:
-2019-08-02T10:51:24.517682+00:00 app[web.1]: Traceback (most recent call last):
-2019-08-02T10:51:24.517684+00:00 app[web.1]: File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
-2019-08-02T10:51:24.517795+00:00 app[web.1]: sys.exit(run())
-2019-08-02T10:51:24.517798+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 61, in run
-2019-08-02T10:51:24.517901+00:00 app[web.1]: WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
-2019-08-02T10:51:24.517904+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 223, in run
-2019-08-02T10:51:24.518063+00:00 app[web.1]: super(Application, self).run()
-2019-08-02T10:51:24.518065+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 72, in run
-2019-08-02T10:51:24.518168+00:00 app[web.1]: Arbiter(self).run()
-2019-08-02T10:51:24.518175+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 232, in run
-2019-08-02T10:51:24.518324+00:00 app[web.1]: self.halt(reason=inst.reason, exit_status=inst.exit_status)
-2019-08-02T10:51:24.518327+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 345, in halt
-2019-08-02T10:51:24.518506+00:00 app[web.1]: self.stop()
-2019-08-02T10:51:24.518512+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 393, in stop
-2019-08-02T10:51:24.518750+00:00 app[web.1]: time.sleep(0.1)
-2019-08-02T10:51:24.518753+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 245, in handle_chld
-2019-08-02T10:51:24.518901+00:00 app[web.1]: self.reap_workers()
-2019-08-02T10:51:24.518904+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
-2019-08-02T10:51:24.519138+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-2019-08-02T10:51:24.519163+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-2019-08-02T10:51:24.601279+00:00 heroku[web.1]: State changed from up to crashed
-2019-08-02T10:51:24.577619+00:00 heroku[web.1]: Process exited with status 1
-2019-08-02T10:54:06.000000+00:00 app[api]: Build started by user arwen_liu@hotmail.com
+C:\Users\*>heroku logs -a hours-estimate -n 1500
+2019-08-02T10:54:06.000000+00:00 app[api]: Build started by user *@*.com
 2019-08-02T10:54:45.879344+00:00 heroku[web.1]: State changed from crashed to starting
-2019-08-02T10:54:45.642437+00:00 app[api]: Release v5 created by user arwen_liu@hotmail.com
-2019-08-02T10:54:45.642437+00:00 app[api]: Deploy 9a7608a1 by user arwen_liu@hotmail.com
+2019-08-02T10:54:45.642437+00:00 app[api]: Release v1 created by user *@*.com
+2019-08-02T10:54:45.642437+00:00 app[api]: Deploy 9a7608a1 by user *@*.com
 2019-08-02T10:54:57.954888+00:00 heroku[web.1]: Starting process with command `gunicorn run:server`
 2019-08-02T10:55:00.092441+00:00 app[web.1]: [2019-08-02 10:55:00 +0000] [4] [INFO] Starting gunicorn 19.9.0
 2019-08-02T10:55:00.092986+00:00 app[web.1]: [2019-08-02 10:55:00 +0000] [4] [INFO] Listening at: http://0.0.0.0:52200 (4)
@@ -463,10 +190,13 @@ C:\Users\*>heroku logs -a hours-estimate -n 2000
 2019-08-02T11:03:52.296848+00:00 app[web.1]: [2019-08-02 11:03:52 +0000] [4] [INFO] Reason: Worker failed to boot.
 2019-08-02T11:03:52.399003+00:00 heroku[web.1]: State changed from up to crashed
 2019-08-02T11:03:52.382270+00:00 heroku[web.1]: Process exited with status 3
-2019-08-02T11:05:22.000000+00:00 app[api]: Build started by user arwen_liu@hotmail.com
-2019-08-02T11:06:58.603634+00:00 app[api]: Release v6 created by user arwen_liu@hotmail.com
+```
+
+```
+2019-08-02T11:05:22.000000+00:00 app[api]: Build started by user *@*.com
+2019-08-02T11:06:58.603634+00:00 app[api]: Release v2 created by user *@*.com
 2019-08-02T11:06:59.032400+00:00 heroku[web.1]: State changed from crashed to starting
-2019-08-02T11:06:58.603634+00:00 app[api]: Deploy ff24a2d7 by user arwen_liu@hotmail.com
+2019-08-02T11:06:58.603634+00:00 app[api]: Deploy ff24a2d7 by user *@*.com
 2019-08-02T11:07:09.702079+00:00 heroku[web.1]: Starting process with command `gunicorn run:server`
 2019-08-02T11:07:11.881717+00:00 app[web.1]: [2019-08-02 11:07:11 +0000] [4] [INFO] Starting gunicorn 19.9.0
 2019-08-02T11:07:11.882626+00:00 app[web.1]: [2019-08-02 11:07:11 +0000] [4] [INFO] Listening at: http://0.0.0.0:59361 (4)
