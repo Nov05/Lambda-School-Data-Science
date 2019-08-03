@@ -41,8 +41,8 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project
 > https://devcenter.heroku.com/articles/logging#log-history-limits
 
 * debug logs
-1. e.g. found error `ImportError: FigureFactory.create_distplot requires scipy`
-2. you might need to update the `requirements.txt`, make sure there is a line like `scipy==1.3.0` in the file  
+> 1. e.g. found error `ImportError: FigureFactory.create_distplot requires scipy`
+> 2. you might need to update the `requirements.txt`, make sure there is a line like `scipy==1.3.0` in the file  
 https://github.com/Nov05/DS-Unit-2-Sprint-4-Project/blob/master/requirements.txt  
 
 ```
