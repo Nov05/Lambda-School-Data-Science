@@ -10,7 +10,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `git clone https://github.com/rrherr/dash-template` (or some other github repo)  
 * `cd dash-template` (navigate to the local folder)  
 * `pipenv install` (run only once to create a pip virtual environment for this repo/project)  
-* `pipenv shell` (run every time you want to start your pip virtual environment)  
+* `pipenv shell` (run every time you want to start your pipenv virtual environment)  
 * `python run.py` (in the example it contains a Plotly Dash app, so run every time you want to start the app)   
 4. press Ctrl+C to stop running run.py (type `pipenv shell` to activate the virtual environment again)  
 5. in a new prompt, start the same pip virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE 
