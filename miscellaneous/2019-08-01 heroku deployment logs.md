@@ -32,13 +32,13 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project
 * visit the app at `https://hours-estimate.herokuapp.com/`  
 
 * if you saw error when visiting the app url, you would need to check the logs  
-1. download and install the Heroku Command Line (CLI)  
-https://devcenter.heroku.com/articles/heroku-cli  
-2. for Windows 10, type `cmd` in the Stat Search Menu to launch the Commond Prompt
-3. type `heroku -a hours-estimate` (or your own app name)  
-4. if you want to check more logs, type `heroku -a hours-estimate -n 1500`  
-according to the document, logs to retrieve are "up to a maximum of 1,500 lines".  
-https://devcenter.heroku.com/articles/logging#log-history-limits
+> 1. download and install the Heroku Command Line (CLI)  
+> https://devcenter.heroku.com/articles/heroku-cli  
+> 2. for Windows 10, type `cmd` in the Stat Search Menu to launch the Commond Prompt
+> 3. type `heroku -a hours-estimate` (or your own app name)  
+> 4. if you want to check more logs, type `heroku -a hours-estimate -n 1500`  
+> according to the document, logs to retrieve are "up to a maximum of 1,500 lines".  
+> https://devcenter.heroku.com/articles/logging#log-history-limits
 
 * debug logs
 1. e.g. found error `ImportError: FigureFactory.create_distplot requires scipy`
