@@ -6,7 +6,7 @@ https://hours-estimate.herokuapp.com/
 GitHub Repo   
 https://github.com/Nov05/DS-Unit-2-Sprint-4-Project  
 
-1. navigate: Heroku > `hours-estimate`(or your own app name) > Activity > View build log  
+* navigate: Heroku > `hours-estimate`(or your own app name) > Activity > View build log  
 
 ## Heroku App Build Log
 ```
@@ -29,20 +29,20 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project
        https://hours-estimate.herokuapp.com/ deployed to Heroku
 ```
 
-2. visit the app at `https://hours-estimate.herokuapp.com/`  
+* visit the app at `https://hours-estimate.herokuapp.com/`  
 
-3. if you saw error when visiting the app url, you would need to check the logs  
-* download and install the Heroku Command Line (CLI)  
+* if you saw error when visiting the app url, you would need to check the logs  
+1. download and install the Heroku Command Line (CLI)  
 https://devcenter.heroku.com/articles/heroku-cli  
-* for Windows 10, type `cmd` in the Stat Search Menu to launch the Commond Prompt
-* type `heroku -a hours-estimate` (or your own app name)  
-* if you want to check more logs, type `heroku -a hours-estimate -n 1500`  
+2. for Windows 10, type `cmd` in the Stat Search Menu to launch the Commond Prompt
+3. type `heroku -a hours-estimate` (or your own app name)  
+4. if you want to check more logs, type `heroku -a hours-estimate -n 1500`  
 according to the document, logs to retrieve are "up to a maximum of 1,500 lines".  
 https://devcenter.heroku.com/articles/logging#log-history-limits
 
-4. debug logs
-* e.g. found error `ImportError: FigureFactory.create_distplot requires scipy`
-* you might need to update the `requirements.txt`, make sure there is a line like `scipy==1.3.0` in the file  
+* debug logs
+1. e.g. found error `ImportError: FigureFactory.create_distplot requires scipy`
+2. you might need to update the `requirements.txt`, make sure there is a line like `scipy==1.3.0` in the file  
 https://github.com/Nov05/DS-Unit-2-Sprint-4-Project/blob/master/requirements.txt  
 
 ```
