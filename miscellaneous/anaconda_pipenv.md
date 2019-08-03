@@ -17,6 +17,8 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 6. you might need to `pip install scipy` for plotly 4.0.0  
 7. `pipenv lock --requirements > requirements.txt` to generate requirements.txt for app deployment  
 
+<br>
+
 P.S. check your pip virtual environment files  
 `C:\Users\*\.virtualenvs\DS-Unit-2-Sprint-4-Project-vhTEmim-\`  
 
