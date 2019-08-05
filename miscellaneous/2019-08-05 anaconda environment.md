@@ -1,7 +1,7 @@
 2019-08-05   
 Windows 10, Anaconda3  
 
-## Anaconda Power Shell
+## Anaconda3 Powershell Prompt
 
 ```
 (base) PS C:\Users\*> cd d:/lambdaschool
