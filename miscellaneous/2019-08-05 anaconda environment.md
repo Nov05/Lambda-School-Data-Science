@@ -75,3 +75,7 @@ dependencies:
   - zlib=1.2.11=h62dcd97_3
 prefix: C:\Users\*\Anaconda3\envs\ds-unit3
 ```
+
+* recreate the environment by `conda env create -f environment.yml`  
+https://medium.com/@krishnaregmi/pipenv-vs-virtualenv-vs-conda-environment-3dde3f6869ed  
+
