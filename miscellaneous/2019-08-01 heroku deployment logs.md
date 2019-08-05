@@ -35,8 +35,8 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project
 > 1. download and install the Heroku Command Line (CLI)  
 > https://devcenter.heroku.com/articles/heroku-cli  
 > 2. for Windows 10, type `cmd` in the Stat Search Menu to launch the Commond Prompt
-> 3. type `heroku -a hours-estimate` (or your own app name)  
-> 4. if you want to check more logs, type `heroku -a hours-estimate -n 1500`  
+> 3. type `heroku logs -a hours-estimate` (or your own app name)  
+> 4. if you want to check more logs, type `heroku logs -a hours-estimate -n 1500`  
 > according to the document, logs to retrieve are "up to a maximum of 1,500 lines".  
 > https://devcenter.heroku.com/articles/logging#log-history-limits
 
