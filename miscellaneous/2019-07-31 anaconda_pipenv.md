@@ -15,7 +15,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 4. press Ctrl+C to stop running run.py (type `pipenv shell` to activate the virtual environment again)  
 5. in a new prompt, start the same pipenv virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE 
 6. you might need to run `pip install scipy` for plotly 4.0.0  
-7. run `pipenv lock --requirements > requirements.txt` to generate requirements.txt for app deployment  
+7. run `pipenv run pip freeze > requirements.txt` to generate requirements.txt for app deployment  
 
 <br>
 
