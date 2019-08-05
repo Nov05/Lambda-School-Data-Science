@@ -50,6 +50,10 @@ https://github.com/Nov05/DS-Unit-2-Sprint-4-Project/blob/master/requirements.txt
 2019-08-02T10:55:06.885673+00:00 app[web.1]: ImportError: FigureFactory.create_distplot requires scipy
 ``` 
 
+P.S.  
+Python Dependencies via Pip  
+https://devcenter.heroku.com/articles/python-pip
+
 ## Heroku App's Logs
 
 * build succeeded, but app crashed  
