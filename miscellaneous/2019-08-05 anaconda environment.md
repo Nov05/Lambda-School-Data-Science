@@ -1,6 +1,5 @@
 2019-08-05   
-
-** Windows 10, Anaconda3**  
+Windows 10, Anaconda3  
 
 ## Anaconda Power Shell
 
