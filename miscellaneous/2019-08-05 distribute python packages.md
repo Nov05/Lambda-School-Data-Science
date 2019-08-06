@@ -6,6 +6,9 @@ https://packaging.python.org/tutorials/packaging-projects/
 Check the package at TestPyPI   
 https://test.pypi.org/project/lambdata-nov05/  
 
+GitHub repo  
+https://github.com/Nov05/python-packages
+
 **Note:** 
 1. name in `__init__.py` or `setup.py` doesn't mind `-` or `_`, only "package folder name" would matter here (because folder name will be used as library name, if you name the folder "lambdata-nov05" then `import lambdata-nov05`, Python `import` can't read `-`, if you `import lambdata_nov05`, Python will throw **ModuleNotFoundError: No module named 'lambdata_nov05'**).  
 2. name in `setup.py` is called "package distribution name". name in `__init__.py` is merely an attribute of the package object, so technically it can be anything (as long as python allows it), but it is better to keep the two same.  
