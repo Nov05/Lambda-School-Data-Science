@@ -1,6 +1,13 @@
 2019-08-05  
 
+Distribute Python packages with "setuptools" library
 https://packaging.python.org/tutorials/packaging-projects/  
+
+Check the package https://test.pypi.org/project/lambdata-nov05/  
+
+**Note:** 
+1. name in `__init__.py` or `setup.py` doesn't mind `-` or `_`, only package folder name would mind (because Python import can't read `-`).  
+2. name in setup.py is called "package distribution name". name in __init__.py is merely an attribute of the package object, so technically it can be anything (as long as python allows it), but it is better to keep the two the same.  
 
 Make sure you have the latest versions of setuptools and wheel installed:
 ```
@@ -128,8 +135,3 @@ Uploading lambdata_nov05-0.0.1-py3-none-any.whl
 Uploading lambdata-nov05-0.0.1.tar.gz
 100%|█████████████████████████████████████████████████████████████████████████████| 4.17k/4.17k [00:01<00:00, 3.64kB/s]
 ```
-Check the package https://test.pypi.org/project/lambdata-nov05/  
-
-**Note:** 
-1. name in `__init__.py` or `setup.py` doesn't mind `-` or `_`, only package folder name would mind (because Python import can't read `-`).  
-2. name in setup.py is called "package distribution name". name in __init__.py is merely an attribute of the package object, so technically it can be anything (as long as python allows it), but it is better to keep the two the same.  
