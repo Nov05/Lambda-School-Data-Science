@@ -12,6 +12,8 @@ https://test.pypi.org/project/lambdata-nov05/
 
 <img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-05%2021_03_19-Home.png?raw=true" width="400"><img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-05%2022_05_14-2019-08-05%20create%20your%20own%20python%20package.ipynb%20-%20Colaboratory.png?raw=true" width="400">  
 
+** Windowns 10, Anaconda3 Powershell Prompt**  
+
 Make sure you have the latest versions of setuptools and wheel installed:
 ```
 (base) PS D:\lambdaschool\python-packages> conda activate ds-unit3
