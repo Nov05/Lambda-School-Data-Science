@@ -55,3 +55,52 @@ adding 'example_pkg_your_username-0.0.1.dist-info/RECORD'
 removing build\bdist.win-amd64\wheel
 ```
 
+... Now that you are registered, you can use twine to upload the distribution packages. You’ll need to install Twine:
+
+```
+(ds-unit3) PS D:\lambdaschool\python-packages\lambdata-nov05> pip install --user --upgrade twine
+Collecting twine
+  Downloading https://files.pythonhosted.org/packages/28/90/59eec88c0b2ac9e47fe135959007acb93a3cc9f7146366e11fecf718dd15/twine-1.13.0-py2.py3-none-any.whl
+Collecting requests-toolbelt!=0.9.0,>=0.8.0 (from twine)
+  Downloading https://files.pythonhosted.org/packages/60/ef/7681134338fc097acef8d9b2f8abe0458e4d87559c689a8c306d0957ece5/requests_toolbelt-0.9.1-py2.py3-none-any.whl (54kB)
+     |████████████████████████████████| 61kB 2.0MB/s
+Collecting readme-renderer>=21.0 (from twine)
+  Downloading https://files.pythonhosted.org/packages/c3/7e/d1aae793900f36b097cbfcc5e70eef82b5b56423a6c52a36dce51fedd8f0/readme_renderer-24.0-py2.py3-none-any.whl
+Collecting requests!=2.15,!=2.16,>=2.5.0 (from twine)
+  Downloading https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl (57kB)
+     |████████████████████████████████| 61kB 1.9MB/s
+Collecting pkginfo>=1.4.2 (from twine)
+  Downloading https://files.pythonhosted.org/packages/e6/d5/451b913307b478c49eb29084916639dc53a88489b993530fed0a66bab8b9/pkginfo-1.5.0.1-py2.py3-none-any.whl
+Requirement already satisfied, skipping upgrade: setuptools>=0.7.0 in c:\users\*\anaconda3\envs\ds-unit3\lib\site-packages (from twine) (41.0.1)
+Collecting tqdm>=4.14 (from twine)
+  Downloading https://files.pythonhosted.org/packages/9f/3d/7a6b68b631d2ab54975f3a4863f3c4e9b26445353264ef01f465dc9b0208/tqdm-4.32.2-py2.py3-none-any.whl (50kB)
+     |████████████████████████████████| 51kB 3.2MB/s
+Requirement already satisfied, skipping upgrade: six in c:\users\*\anaconda3\envs\ds-unit3\lib\site-packages (from readme-renderer>=21.0->twine) (1.12.0)
+Requirement already satisfied, skipping upgrade: Pygments in c:\users\*\anaconda3\envs\ds-unit3\lib\site-packages (from readme-renderer>=21.0->twine) (2.4.2)
+Requirement already satisfied, skipping upgrade: bleach>=2.1.0 in c:\users\*\anaconda3\envs\ds-unit3\lib\site-packages (from readme-renderer>=21.0->twine) (3.1.0)
+Collecting docutils>=0.13.1 (from readme-renderer>=21.0->twine)
+  Downloading https://files.pythonhosted.org/packages/22/cd/a6aa959dca619918ccb55023b4cb151949c64d4d5d55b3f4ffd7eee0c6e8/docutils-0.15.2-py3-none-any.whl (547kB)
+     |████████████████████████████████| 552kB 2.2MB/s
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in c:\users\*\anaconda3\envs\ds-unit3\lib\site-packages (from requests!=2.15,!=2.16,>=2.5.0->twine) (2019.6.16)
+Collecting idna<2.9,>=2.5 (from requests!=2.15,!=2.16,>=2.5.0->twine)
+  Downloading https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl (58kB)
+     |████████████████████████████████| 61kB 3.8MB/s
+Collecting chardet<3.1.0,>=3.0.2 (from requests!=2.15,!=2.16,>=2.5.0->twine)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+     |████████████████████████████████| 143kB 3.2MB/s
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 (from requests!=2.15,!=2.16,>=2.5.0->twine)
+  Downloading https://files.pythonhosted.org/packages/e6/60/247f23a7121ae632d62811ba7f273d0e58972d75e58a94d329d51550a47d/urllib3-1.25.3-py2.py3-none-any.whl (150kB)
+     |████████████████████████████████| 153kB 3.3MB/s
+Requirement already satisfied, skipping upgrade: webencodings in c:\users\*\anaconda3\envs\ds-unit3\lib\site-packages (from bleach>=2.1.0->readme-renderer>=21.0->twine) (0.5.1)
+Installing collected packages: idna, chardet, urllib3, requests, requests-toolbelt, docutils, readme-renderer, pkginfo, tqdm, twine
+  WARNING: The script chardetect.exe is installed in 'C:\Users\*\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pkginfo.exe is installed in 'C:\Users\*\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tqdm.exe is installed in 'C:\Users\*\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script twine.exe is installed in 'C:\Users\*\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed chardet-3.0.4 docutils-0.15.2 idna-2.8 pkginfo-1.5.0.1 readme-renderer-24.0 requests-2.22.0 requests-toolbelt-0.9.1 tqdm-4.32.2 twine-1.13.0 urllib3-1.25.3
+```
+
