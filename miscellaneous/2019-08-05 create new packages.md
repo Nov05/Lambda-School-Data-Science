@@ -117,3 +117,15 @@ Installing collected packages: idna, chardet, urllib3, requests, requests-toolbe
 Successfully installed chardet-3.0.4 docutils-0.15.2 idna-2.8 pkginfo-1.5.0.1 readme-renderer-24.0 requests-2.22.0 requests-toolbelt-0.9.1 tqdm-4.32.2 twine-1.13.0 urllib3-1.25.3
 ```
 
+Once installed, run Twine to upload all of the archives under dist:
+```
+(ds-unit3) PS D:\lambdaschool\python-packages> python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+Enter your username: nov05
+Enter your password:
+Uploading distributions to https://test.pypi.org/legacy/
+Uploading lambdata_nov05-0.0.1-py3-none-any.whl
+100%|█████████████████████████████████████████████████████████████████████████████| 5.39k/5.39k [00:00<00:00, 26.3kB/s]
+Uploading lambdata-nov05-0.0.1.tar.gz
+100%|█████████████████████████████████████████████████████████████████████████████| 4.17k/4.17k [00:01<00:00, 3.64kB/s]
+```
+
