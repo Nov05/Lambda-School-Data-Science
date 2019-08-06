@@ -7,7 +7,7 @@ Check the package
 https://test.pypi.org/project/lambdata-nov05/  
 
 **Note:** 
-1. name in `__init__.py` or `setup.py` doesn't mind `-` or `_`, only "package folder name" would matter (because folder name will be used as library name, if you `import lambdata-nov05`, Python `import` can't read `-`, if you `import lambdata_nov05`, Python would throw error `ModuleNotFoundError: No module named 'lambdata_nov05'`).  
+1. name in `__init__.py` or `setup.py` doesn't mind `-` or `_`, only "package folder name" would matter here (because folder name will be used as library name, if you `import lambdata-nov05`, Python `import` can't read `-`, if you `import lambdata_nov05`, Python would throw error `ModuleNotFoundError: No module named 'lambdata_nov05'`).  
 2. name in setup.py is called "package distribution name". name in __init__.py is merely an attribute of the package object, so technically it can be anything (as long as python allows it), but it is better to keep the two the same.  
 
 <img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-05%2021_03_19-Home.png?raw=true" width="400"><img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-05%2022_05_14-2019-08-05%20create%20your%20own%20python%20package.ipynb%20-%20Colaboratory.png?raw=true" width="400">  
