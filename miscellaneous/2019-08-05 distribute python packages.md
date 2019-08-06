@@ -138,3 +138,6 @@ Uploading lambdata_nov05-0.0.1-py3-none-any.whl
 Uploading lambdata-nov05-0.0.1.tar.gz
 100%|█████████████████████████████████████████████████████████████████████████████| 4.17k/4.17k [00:01<00:00, 3.64kB/s]
 ```
+
+Check your package at TestPyPI
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-05%2021_06_04-TestPyPI.png?raw=true">
