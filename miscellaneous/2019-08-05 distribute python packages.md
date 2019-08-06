@@ -3,7 +3,7 @@
 Distribute Python packages with "setuptools" library  
 https://packaging.python.org/tutorials/packaging-projects/  
 
-Check the package   
+Check the package at TestPyPI   
 https://test.pypi.org/project/lambdata-nov05/  
 
 **Note:** 
@@ -139,5 +139,6 @@ Uploading lambdata-nov05-0.0.1.tar.gz
 100%|█████████████████████████████████████████████████████████████████████████████| 4.17k/4.17k [00:01<00:00, 3.64kB/s]
 ```
 
-Check your package at TestPyPI
+Now you should be able to check the package at TestPyPI.  
+
 <img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-05%2021_06_04-TestPyPI.png?raw=true">
