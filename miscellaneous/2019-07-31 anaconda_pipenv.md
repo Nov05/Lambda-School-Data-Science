@@ -3,7 +3,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 
 # Windows 10  
 1. install Anaconda3  
-2. Windows Start Menu Search: type and run "Anaconda Powershell Prompt"  
+2. Windows Start Menu Search: type and run **"Anaconda Powershell Prompt"**  
 3. in the prompt, type the following command:  
 * `pip install pipenv` (run only once)     
 * `cd <path>` (navigate to the folder where you want to create a local folder for your github repo)
