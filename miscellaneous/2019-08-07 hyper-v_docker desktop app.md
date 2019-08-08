@@ -14,7 +14,7 @@ https://docs.docker.com/docker-for-windows/
 
 # Windows 8 or Windows 10
 
-1. Check whether your system hardware supports Hyper-V
+## 1. Check whether your system hardware supports Hyper-V
 
 > -> in Start Menu Search type `cmd`  
 > -> right click on `Command Prompt` and select `Run as administrator`  
@@ -32,7 +32,7 @@ Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
                            Data Execution Prevention Available: Yes
 ```
 
-2. Check whether your Windows has Hyper-V
+## 2. Check whether your Windows has Hyper-V
 
 > -> in Start Menu Search type `turn windows features on or off`
 > -> check whether there is `Hyper-V` option
@@ -42,10 +42,10 @@ you can upgrade your windows with a Pro product key
 https://blog.csdn.net/hce1478506318/article/details/80863274  
 http://www.xitongzu.com/jc/6574.html  
 
-3. Once upgraded, check the `Hyper-V` option, 
+## 3. Once upgraded, check the `Hyper-V` option, 
 then in the `Administrator: Command Prompt` -> `system info`, 
 you should be able to see the follow information
 
-4. install docker for windows
+## 4. install docker for windows
 
 
