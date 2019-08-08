@@ -52,7 +52,7 @@ http://www.xitongzu.com/jc/6574.html
 then in the `Administrator: Command Prompt` -> `system info`, 
 you should be able to see the follow information
 
-<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-07%2022_33_08-Editing%20Lambda-School-Data-Science_2019-08-07%20hyper-v_docker%20desktop%20app.md%20at%20m.png?raw=true" width="500">
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-07%2022_33_08-Editing%20Lambda-School-Data-Science_2019-08-07%20hyper-v_docker%20desktop%20app.md%20at%20m.png?raw=true" width="400">
 <img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-08-07%2022_31_58-Device%20Manager.png?raw=true" width="300"> 
                        
 ## 4. Install docker for windows  
