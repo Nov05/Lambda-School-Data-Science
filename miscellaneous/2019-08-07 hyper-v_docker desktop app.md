@@ -19,6 +19,7 @@ https://docs.docker.com/docker-for-windows/
 > -> Start Menu Search `cmd`  
 > -> right click on `Commond Prompt` and select `Run as administrator`  
 > -> in the commond prompt, type `system info`
+
 >    you should be able to see the following information, 
 >    which means your system hardware supports `Hyper-V`, 
 >    and you will be able to install `Docker Desktop for Windows` app,
