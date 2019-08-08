@@ -9,6 +9,9 @@ https://docs.docker.com/docker-for-windows/install/
 Install Docker Toolbox on Windows (for no Hyper-V versions)  
 https://docs.docker.com/toolbox/toolbox_install_windows/  
 
+Install Hyper-V on Windows 10  
+https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v  
+
 Get started with Docker for Windows  
 https://docs.docker.com/docker-for-windows/  
 
