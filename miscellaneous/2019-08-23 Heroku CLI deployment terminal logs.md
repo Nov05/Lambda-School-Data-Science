@@ -1,7 +1,7 @@
 2019-08-03 
 
 # Heroku CLI Deployment Terminal Logs   
-# Create and deploy apps from Google Colab
+### Create and deploy apps from Google Colab
 
 1. Install CLI in Linux (Google Colab)  
 ```!curl https://cli-assets.heroku.com/install.sh | sh```
