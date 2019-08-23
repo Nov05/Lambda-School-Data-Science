@@ -23,7 +23,7 @@ get_ipython().system_raw('./ngrok http 8888 &')
 
 4. In the terminal web page, follow the Heroku deployment instructions. you will be able to click on the Heroku login link and login from the terminal, just like most local terminals.
 
-5. Before this, you can also install `pipenv` in Google Colab, control dependencies there, generate requirements.txt file, etc. Or you can save all files in Google Drive, so they won't be removed when resetting all the runtimes. **Anyway, everything was done in Google Colab.** All examples are in this [**Colab Notebook**](https://colab.research.google.com/drive/1MJa6o8mf2vxxnpxRbCmlRcbeYSkDnFSP?authuser=1#scrollTo=YIzu8ls5Csq0&line=4&uniqifier=1). 
+5. Before this, you can also install `pipenv` in Google Colab, control dependencies there, generate requirements.txt file, etc. Or you can save all files on [**Google Drive**](https://drive.google.com/open?id=1063bvSI7m4vfHTibPVktuWMfgNCShoNU), so they won't be removed when resetting all the runtimes. **Anyway, everything was done in Google Colab.** All examples are in this [**Colab Notebook**](https://colab.research.google.com/drive/1MJa6o8mf2vxxnpxRbCmlRcbeYSkDnFSP?authuser=1#scrollTo=YIzu8ls5Csq0&line=4&uniqifier=1). 
 
 6. Visit the app at https://iris-app-20190823.herokuapp.com/   
 
@@ -32,7 +32,7 @@ get_ipython().system_raw('./ngrok http 8888 &')
 ### Terminal Logs
 
 ```
-oot@2dc61bb7537d:/content# heroku loginheroku: Press any key to open up the browser to login or q to exit:
+root@2dc61bb7537d:/content# heroku loginheroku: Press any key to open up the browser to login or q to exit:
  ›   Error: quit
 root@2dc61bb7537d:/content# cd irisapp
 root@2dc61bb7537d:/content/irisapp# git init
