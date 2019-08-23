@@ -142,3 +142,17 @@ Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.6/dist
 Requirement already satisfied: webencodings in /usr/local/lib/python3.6/dist-packages (from bleach->nbconvert->jupyter) (0.5.1)
 Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/dist-packages (from prompt-toolkit<2.0.0,>=1.0.0->jupyter-console->jupyter) (0.1.7)
 ```
+# !curl https://cli-assets.heroku.com/install.sh | sh
+Heroku CLI installation
+```
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1892  100  1892    0     0  15636      0 --:--:-- --:--:-- --:--:-- 15636
+Installing CLI from https://cli-assets.heroku.com/heroku-linux-x64.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 17.0M  100 17.0M    0     0  6341k      0  0:00:02  0:00:02 --:--:-- 6339k
+v11.14.0
+heroku installed to /usr/local/bin/heroku
+heroku/7.29.0 linux-x64 node-v11.14.0
+```
