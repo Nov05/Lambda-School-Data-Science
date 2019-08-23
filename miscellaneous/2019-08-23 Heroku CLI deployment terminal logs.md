@@ -19,7 +19,7 @@ get_ipython().system_raw('./ngrok http 8888 &')
 # e.g. https://19962c4d.ngrok.io/
 ```
 
-3. In the Jupyter Notebook, click on the `new` button in the upper right corner, then select `Terminal`
+3. In the Jupyter Notebook, click on the `New` button in the upper right corner, then select `Terminal`
 
 4. In the terminal web page, follow the Heroku deployment instructions. you will be able to click on the Heroku login link and login from the terminal, just like most local terminals.
 
