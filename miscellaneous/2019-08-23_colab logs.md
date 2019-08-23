@@ -156,3 +156,48 @@ v11.14.0
 heroku installed to /usr/local/bin/heroku
 heroku/7.29.0 linux-x64 node-v11.14.0
 ```
+
+
+
+# !pip install pipenv
+!pipenv install
+!pipenv shell
+```
+Collecting pipenv
+  Downloading https://files.pythonhosted.org/packages/13/b4/3ffa55f77161cff9a5220f162670f7c5eb00df52e00939e203f601b0f579/pipenv-2018.11.26-py3-none-any.whl (5.2MB)
+     |████████████████████████████████| 5.2MB 3.4MB/s 
+Collecting virtualenv (from pipenv)
+  Downloading https://files.pythonhosted.org/packages/f7/69/1ad2d17560c4fc60170056dcd0a568b83f3453a2ac91155af746bcdb9a07/virtualenv-16.7.4-py2.py3-none-any.whl (3.3MB)
+     |████████████████████████████████| 3.3MB 42.3MB/s 
+Collecting virtualenv-clone>=0.2.5 (from pipenv)
+  Downloading https://files.pythonhosted.org/packages/ba/f8/50c2b7dbc99e05fce5e5b9d9a31f37c988c99acd4e8dedd720b7b8d4011d/virtualenv_clone-0.5.3-py2.py3-none-any.whl
+Requirement already satisfied: certifi in /usr/local/lib/python3.6/dist-packages (from pipenv) (2019.6.16)
+Requirement already satisfied: pip>=9.0.1 in /usr/local/lib/python3.6/dist-packages (from pipenv) (19.2.2)
+Requirement already satisfied: setuptools>=36.2.1 in /usr/local/lib/python3.6/dist-packages (from pipenv) (41.2.0)
+Installing collected packages: virtualenv, virtualenv-clone, pipenv
+Successfully installed pipenv-2018.11.26 virtualenv-16.7.4 virtualenv-clone-0.5.3
+/content/myproject
+Creating a virtualenv for this project…
+Pipfile: /content/myproject/Pipfile
+Using /usr/bin/python3 (3.6.8) to create virtualenv…
+⠙ Creating virtual environment...Already using interpreter /usr/bin/python3
+Using base prefix '/usr'
+New python executable in /root/.local/share/virtualenvs/myproject-5DVR_BVm/bin/python3
+Also creating executable in /root/.local/share/virtualenvs/myproject-5DVR_BVm/bin/python
+Installing setuptools, pip, wheel...
+done.
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /root/.local/share/virtualenvs/myproject-5DVR_BVm
+Creating a Pipfile for this project…
+Pipfile.lock not found, creating…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+Updated Pipfile.lock (ca72e7)!
+Installing dependencies from Pipfile.lock (ca72e7)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 0/0 — 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+```
+
+# 
