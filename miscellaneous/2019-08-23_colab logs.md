@@ -72,3 +72,31 @@ Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Purging configuration files for python (2.7.15~rc1-1) ...
 Purging configuration files for python2.7-minimal (2.7.15-4ubuntu4~18.04) ...
 ```
+
+# !jupyter notebook
+Why is Python 2.7 called here?
+```
+/usr/local/lib/python2.7/dist-packages/IPython/utils/traitlets.py:5: UserWarning: IPython.utils.traitlets has moved to a top-level traitlets package.
+  warn("IPython.utils.traitlets has moved to a top-level traitlets package.")
+Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-notebook", line 10, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python2.7/dist-packages/jupyter_core/application.py", line 267, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "</usr/local/lib/python2.7/dist-packages/decorator.pyc:decorator-gen-7>", line 2, in initialize
+  File "/usr/local/lib/python2.7/dist-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/notebook/notebookapp.py", line 1368, in initialize
+    self.init_webapp()
+  File "/usr/local/lib/python2.7/dist-packages/notebook/notebookapp.py", line 1188, in init_webapp
+    self.http_server.listen(port, self.ip)
+  File "/usr/local/lib/python2.7/dist-packages/tornado/tcpserver.py", line 142, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/usr/local/lib/python2.7/dist-packages/tornado/netutil.py", line 197, in bind_sockets
+    sock.bind(sockaddr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+```
