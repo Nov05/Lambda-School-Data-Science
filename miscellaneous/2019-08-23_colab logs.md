@@ -202,3 +202,14 @@ Installing dependencies from Pipfile.lock (ca72e7)…
 To activate this project's virtualenv, run pipenv shell.
 Alternatively, run a command inside the virtualenv with pipenv run.
 ```
+
+# !ipython kernelspec list  
+```   
+[TerminalIPythonApp] WARNING | Subcommand `ipython kernelspec` is deprecated and will be removed in future versions.
+[TerminalIPythonApp] WARNING | You likely want to use `jupyter kernelspec` in the future
+Available kernels:
+  ir         /usr/local/share/jupyter/kernels/ir
+  python2    /usr/local/share/jupyter/kernels/python2
+  python3    /usr/local/share/jupyter/kernels/python3
+  swift      /usr/local/share/jupyter/kernels/swift
+  ```   
