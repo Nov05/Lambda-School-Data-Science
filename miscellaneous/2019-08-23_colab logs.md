@@ -1,5 +1,8 @@
+2019-08-23   
+Google Colab   
 
 # !sudo apt purge python2.7-minimal
+remove python 2.7
 ```
 Reading package lists... Done
 Building dependency tree       
@@ -159,9 +162,9 @@ heroku/7.29.0 linux-x64 node-v11.14.0
 
 
 
-# !pip install pipenv
-!pipenv install
-!pipenv shell
+# !pip install pipenv  
+!pipenv install  
+!pipenv shell  
 ```
 Collecting pipenv
   Downloading https://files.pythonhosted.org/packages/13/b4/3ffa55f77161cff9a5220f162670f7c5eb00df52e00939e203f601b0f579/pipenv-2018.11.26-py3-none-any.whl (5.2MB)
@@ -199,5 +202,3 @@ Installing dependencies from Pipfile.lock (ca72e7)…
 To activate this project's virtualenv, run pipenv shell.
 Alternatively, run a command inside the virtualenv with pipenv run.
 ```
-
-# 
