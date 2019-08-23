@@ -3,26 +3,32 @@
 # Heroku CLI Deployment Terminal Logs
 
 1. Install CLI in Linux (Google Colab)  
-`!curl https://cli-assets.heroku.com/install.sh | sh`
+```!curl https://cli-assets.heroku.com/install.sh | sh```
 
-2. Tunnel Jupyter Notebook local port 8888 to the Internet
+2. Tunnel Jupyter Notebook local port `8888` to the Internet
 ```
+# Install ngrok
+!wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+!unzip ngrok-stable-linux-amd64.zip
 %cd /content
 get_ipython().system_raw('./ngrok http 8888 &')
 !curl -s http://localhost:4040/api/tunnels | python3 -c \
 "import sys, json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"
 !jupyter notebook
 # click on the ngrok link to open a jupyter notebook
+# e.g. https://19962c4d.ngrok.io/
 ```
 
-3. In the Jupyter Notebook, click on the "new" button in the upper right corner, then select "Terminal"
+3. In the Jupyter Notebook, click on the `new` button in the upper right corner, then select `Terminal`
 
-4. In the terminal web page (new tab), follow the Heroku deployment instructions. you will be able to click on the Heroku login link and login from the terminal.
+4. In the terminal web page, follow the Heroku deployment instructions. you will be able to click on the Heroku login link and login from the terminal, just like most local terminals.
 
-5. Before this, you can also install pipenv in Google Colab, control dependencies there, generate requirements.txt file, etc. Anyway, everything was done in Google Colab.    
+5. Before this, you can also install `pipenv` in Google Colab, control dependencies there, generate requirements.txt file, etc. Or you can save all files in Google Drive, so they won't be removed when resetting all the runtimes. Anyway, everything was done in Google Colab.    
 https://colab.research.google.com/drive/1MJa6o8mf2vxxnpxRbCmlRcbeYSkDnFSP?authuser=1#scrollTo=YIzu8ls5Csq0&line=4&uniqifier=1
 
 6. Visit the app at https://iris-app-20190823.herokuapp.com/   
+
+7. `/content` is Google Colab default folder  
 
 ### Terminal Logs
 
