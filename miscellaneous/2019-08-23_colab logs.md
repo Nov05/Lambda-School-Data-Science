@@ -104,6 +104,53 @@ Traceback (most recent call last):
 socket.error: [Errno 99] Cannot assign requested address
 ```
 
+# !FLASK_APP=iris.py flask run  
+```
+* Serving Flask app "iris.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 10, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python2.7/dist-packages/flask/cli.py", line 966, in main
+    cli.main(prog_name="python -m flask" if as_module else None)
+  File "/usr/local/lib/python2.7/dist-packages/flask/cli.py", line 586, in main
+    return super(FlaskGroup, self).main(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python2.7/dist-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python2.7/dist-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python2.7/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/click/decorators.py", line 64, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/cli.py", line 848, in run_command
+    app = DispatchingApp(info.load_app, use_eager_loading=eager_loading)
+  File "/usr/local/lib/python2.7/dist-packages/flask/cli.py", line 305, in __init__
+    self._load_unlocked()
+  File "/usr/local/lib/python2.7/dist-packages/flask/cli.py", line 330, in _load_unlocked
+    self._app = rv = self.loader()
+  File "/usr/local/lib/python2.7/dist-packages/flask/cli.py", line 388, in load_app
+    app = locate_app(self, import_name, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/cli.py", line 240, in locate_app
+    __import__(module_name)
+  File "/content/iris.py", line 6, in <module>
+    model_iris = pickle.load(open('model.pkl', 'rb'))
+  File "/usr/lib/python2.7/pickle.py", line 1384, in load
+    return Unpickler(file).load()
+  File "/usr/lib/python2.7/pickle.py", line 864, in load
+    dispatch[key](self)
+  File "/usr/lib/python2.7/pickle.py", line 892, in load_proto
+    raise ValueError, "unsupported pickle protocol: %d" % proto
+ValueError: unsupported pickle protocol: 3
+```
+
 # !pip install jupyter notebook
 ```
 Requirement already satisfied: jupyter in /usr/local/lib/python3.6/dist-packages (1.0.0)
