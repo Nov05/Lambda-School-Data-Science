@@ -105,6 +105,7 @@ socket.error: [Errno 99] Cannot assign requested address
 ```
 
 # !FLASK_APP=iris.py flask run  
+Why is Python 2.7 called here too?  
 ```
 * Serving Flask app "iris.py"
  * Environment: production
