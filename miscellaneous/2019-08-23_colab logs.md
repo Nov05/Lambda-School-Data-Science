@@ -220,6 +220,27 @@ Requirement already satisfied: wcwidth in /usr/local/lib/python2.7/dist-packages
 ```
 
 
+# !pip --version
+!pip3 --version  
+!pip3 install ipython   
+```
+pip 19.2.2 from /usr/local/lib/python2.7/dist-packages/pip (python 2.7)
+pip 19.2.2 from /usr/local/lib/python3.6/dist-packages/pip (python 3.6)
+Requirement already satisfied: ipython in /usr/local/lib/python3.6/dist-packages (5.5.0)
+Requirement already satisfied: prompt-toolkit<2.0.0,>=1.0.4 in /usr/local/lib/python3.6/dist-packages (from ipython) (1.0.16)
+Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.6/dist-packages (from ipython) (41.2.0)
+Requirement already satisfied: decorator in /usr/local/lib/python3.6/dist-packages (from ipython) (4.4.0)
+Requirement already satisfied: pexpect; sys_platform != "win32" in /usr/local/lib/python3.6/dist-packages (from ipython) (4.7.0)
+Requirement already satisfied: traitlets>=4.2 in /usr/local/lib/python3.6/dist-packages (from ipython) (4.3.2)
+Requirement already satisfied: pygments in /usr/local/lib/python3.6/dist-packages (from ipython) (2.1.3)
+Requirement already satisfied: pickleshare in /usr/local/lib/python3.6/dist-packages (from ipython) (0.7.5)
+Requirement already satisfied: simplegeneric>0.8 in /usr/local/lib/python3.6/dist-packages (from ipython) (0.8.1)
+Requirement already satisfied: six>=1.9.0 in /usr/local/lib/python3.6/dist-packages (from prompt-toolkit<2.0.0,>=1.0.4->ipython) (1.12.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/dist-packages (from prompt-toolkit<2.0.0,>=1.0.4->ipython) (0.1.7)
+Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.6/dist-packages (from pexpect; sys_platform != "win32"->ipython) (0.6.0)
+Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.6/dist-packages (from traitlets>=4.2->ipython) (0.2.0)
+```
+
 
 # !curl https://cli-assets.heroku.com/install.sh | sh
 Heroku CLI installation
