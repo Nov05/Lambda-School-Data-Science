@@ -4,7 +4,7 @@ Remote repos:
 `Repo 1` https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes  
 `Repo 2` https://github.com/Build-Week-Safe-Routes/Data-Science
 
-`Local Repo` is cloned from the `Repo 1`.
+`Local Repo` is cloned from `Repo 1`.
 
 ### 1. add `Repo 2` url as remote with name `project`
 ```
