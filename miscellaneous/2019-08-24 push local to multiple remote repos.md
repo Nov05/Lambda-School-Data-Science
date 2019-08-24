@@ -6,32 +6,23 @@ Remote repos:
 
 `Local Repo` is cloned from `Repo 1`.
 
-### 1. add `Repo 2` url as remote with name `project`
-```
-$ git add remote project https://github.com/Build-Week-Safe-Routes/Data-Science
-```
-
-### 2. check remotes
+### 1. check remotes
 ```
 $ git remote -v
 origin  https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git (fetch)
 origin  https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git (push)
-project https://github.com/Build-Week-Safe-Routes/Data-Science.git (fetch)
-project https://github.com/Build-Week-Safe-Routes/Data-Science.git (push)
 ```
 
-### 3. add `Repo 2` url to origin   
+### 2. add `Repo 2` url to origin   
 ```
-$ git remote set-url --add --push origin https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes
+$ git remote set-url --add --push origin https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git
 $ git remote -v
 origin  https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git (fetch)
 origin  https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git (push)
 origin  https://github.com/Build-Week-Safe-Routes/Data-Science.git (push)
-project https://github.com/Build-Week-Safe-Routes/Data-Science.git (fetch)
-project https://github.com/Build-Week-Safe-Routes/Data-Science.git (push)
 ```
 
-### 4. make some changes to the `Local Repo` and push to `Repo 1` and `Repo 2`  
+### 3. make some changes to the `Local Repo` and push to `Repo 1` and `Repo 2`  
 ```
 *@laptop MINGW64 /d/lambdaschool/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes (master)
 $ git add .
@@ -75,13 +66,10 @@ To https://github.com/Build-Week-Safe-Routes/Data-Science
 [remote "origin"]
 	url = https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
- pushurl = https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes
-	pushurl = https://github.com/Build-Week-Safe-Routes/Data-Science
+	pushurl = https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git
+	pushurl = https://github.com/Build-Week-Safe-Routes/Data-Science.git
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
-[remote "project"]
-	url = https://github.com/Build-Week-Safe-Routes/Data-Science.git
-	fetch = +refs/heads/*:refs/remotes/project/*
 ```
 
