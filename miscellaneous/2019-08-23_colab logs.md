@@ -193,6 +193,34 @@ Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.6/dist
 Requirement already satisfied: webencodings in /usr/local/lib/python3.6/dist-packages (from bleach->nbconvert->jupyter) (0.5.1)
 Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/dist-packages (from prompt-toolkit<2.0.0,>=1.0.0->jupyter-console->jupyter) (0.1.7)
 ```
+
+# !jupyter notebook --version  
+!ipython --version  
+!pip install ipython   
+```
+5.2.2
+5.5.0
+Requirement already satisfied: ipython in /usr/local/lib/python2.7/dist-packages (5.5.0)
+Requirement already satisfied: simplegeneric>0.8 in /usr/local/lib/python2.7/dist-packages (from ipython) (0.8.1)
+Requirement already satisfied: pickleshare in /usr/local/lib/python2.7/dist-packages (from ipython) (0.7.5)
+Requirement already satisfied: backports.shutil-get-terminal-size; python_version == "2.7" in /usr/local/lib/python2.7/dist-packages (from ipython) (1.0.0)
+Requirement already satisfied: pathlib2; python_version == "2.7" or python_version == "3.3" in /usr/local/lib/python2.7/dist-packages (from ipython) (2.3.4)
+Requirement already satisfied: pexpect; sys_platform != "win32" in /usr/local/lib/python2.7/dist-packages (from ipython) (4.7.0)
+Requirement already satisfied: traitlets>=4.2 in /usr/local/lib/python2.7/dist-packages (from ipython) (4.3.2)
+Requirement already satisfied: pygments in /usr/local/lib/python2.7/dist-packages (from ipython) (2.1.3)
+Requirement already satisfied: decorator in /usr/local/lib/python2.7/dist-packages (from ipython) (4.4.0)
+Requirement already satisfied: prompt-toolkit<2.0.0,>=1.0.4 in /usr/local/lib/python2.7/dist-packages (from ipython) (1.0.16)
+Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python2.7/dist-packages (from ipython) (41.2.0)
+Requirement already satisfied: six in /usr/local/lib/python2.7/dist-packages (from pathlib2; python_version == "2.7" or python_version == "3.3"->ipython) (1.12.0)
+Requirement already satisfied: scandir; python_version < "3.5" in /usr/local/lib/python2.7/dist-packages (from pathlib2; python_version == "2.7" or python_version == "3.3"->ipython) (1.10.0)
+Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python2.7/dist-packages (from pexpect; sys_platform != "win32"->ipython) (0.6.0)
+Requirement already satisfied: enum34; python_version == "2.7" in /usr/local/lib/python2.7/dist-packages (from traitlets>=4.2->ipython) (1.1.6)
+Requirement already satisfied: ipython-genutils in /usr/local/lib/python2.7/dist-packages (from traitlets>=4.2->ipython) (0.2.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python2.7/dist-packages (from prompt-toolkit<2.0.0,>=1.0.4->ipython) (0.1.7)
+```
+
+
+
 # !curl https://cli-assets.heroku.com/install.sh | sh
 Heroku CLI installation
 ```
