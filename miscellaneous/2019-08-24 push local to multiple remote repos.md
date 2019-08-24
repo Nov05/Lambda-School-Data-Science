@@ -6,12 +6,12 @@ Remote repos:
 
 `Local Repo` is cloned from the `Repo 1`.
 
-1. add `Repo 2` url as remote with name `project`
+### 1. add `Repo 2` url as remote with name `project`
 ```
 $ git add remote project https://github.com/Build-Week-Safe-Routes/Data-Science
 ```
 
-2. check remotes
+### 2. check remotes
 ```
 $ git remote -v
 origin  https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes.git (fetch)
@@ -20,7 +20,7 @@ project https://github.com/Build-Week-Safe-Routes/Data-Science.git (fetch)
 project https://github.com/Build-Week-Safe-Routes/Data-Science.git (push)
 ```
 
-3. add `Repo 2` url to origin   
+### 3. add `Repo 2` url to origin   
 ```
 $ git remote set-url --add --push origin https://github.com/Nov05/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes
 $ git remote -v
@@ -31,7 +31,7 @@ project https://github.com/Build-Week-Safe-Routes/Data-Science.git (fetch)
 project https://github.com/Build-Week-Safe-Routes/Data-Science.git (push)
 ```
 
-4. make some changes to the `Local Repo` and push to `Repo 1` and `Repo 2`  
+### 4. make some changes to the `Local Repo` and push to `Repo 1` and `Repo 2`  
 ```
 *@laptop MINGW64 /d/lambdaschool/DS-Unit-3-Sprint-4-Build-Week-Safe-Routes (master)
 $ git add .
