@@ -241,6 +241,18 @@ Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.6/dist-
 Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.6/dist-packages (from traitlets>=4.2->ipython) (0.2.0)
 ```
 
+# !python -m pip install --upgrade pip setuptools wheel  
+!python3 -m pip install --upgrade pip setuptools wheel   
+```
+Requirement already up-to-date: pip in /usr/local/lib/python2.7/dist-packages (19.2.2)
+Requirement already up-to-date: setuptools in /usr/local/lib/python2.7/dist-packages (41.2.0)
+Requirement already up-to-date: wheel in /usr/local/lib/python2.7/dist-packages (0.33.6)
+Requirement already up-to-date: pip in /usr/local/lib/python3.6/dist-packages (19.2.2)
+Requirement already up-to-date: setuptools in /usr/local/lib/python3.6/dist-packages (41.2.0)
+Requirement already up-to-date: wheel in /usr/local/lib/python3.6/dist-packages (0.33.6)
+```
+
+
 
 # !curl https://cli-assets.heroku.com/install.sh | sh
 Heroku CLI installation
