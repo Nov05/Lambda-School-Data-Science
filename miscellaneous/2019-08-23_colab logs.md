@@ -220,6 +220,21 @@ Requirement already satisfied: wcwidth in /usr/local/lib/python2.7/dist-packages
 ```
 
 
+
+
+# !python -m pip install --upgrade pip setuptools wheel  
+!python3 -m pip install --upgrade pip setuptools wheel   
+```
+Requirement already up-to-date: pip in /usr/local/lib/python2.7/dist-packages (19.2.2)
+Requirement already up-to-date: setuptools in /usr/local/lib/python2.7/dist-packages (41.2.0)
+Requirement already up-to-date: wheel in /usr/local/lib/python2.7/dist-packages (0.33.6)
+Requirement already up-to-date: pip in /usr/local/lib/python3.6/dist-packages (19.2.2)
+Requirement already up-to-date: setuptools in /usr/local/lib/python3.6/dist-packages (41.2.0)
+Requirement already up-to-date: wheel in /usr/local/lib/python3.6/dist-packages (0.33.6)
+```
+
+
+
 # !pip --version
 !pip3 --version  
 !pip3 install ipython   
@@ -241,17 +256,40 @@ Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.6/dist-
 Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.6/dist-packages (from traitlets>=4.2->ipython) (0.2.0)
 ```
 
-# !python -m pip install --upgrade pip setuptools wheel  
-!python3 -m pip install --upgrade pip setuptools wheel   
+# !pip3 install 'ipython==7.7.0'  
+ERROR: jupyter-console 5.2.0 has requirement prompt-toolkit<2.0.0,>=1.0.0, but you'll have prompt-toolkit 2.0.9 which is incompatible.    
+ERROR: google-colab 1.0.0 has requirement ipython~=5.5.0, but you'll have ipython 7.7.0 which is incompatible.    
 ```
-Requirement already up-to-date: pip in /usr/local/lib/python2.7/dist-packages (19.2.2)
-Requirement already up-to-date: setuptools in /usr/local/lib/python2.7/dist-packages (41.2.0)
-Requirement already up-to-date: wheel in /usr/local/lib/python2.7/dist-packages (0.33.6)
-Requirement already up-to-date: pip in /usr/local/lib/python3.6/dist-packages (19.2.2)
-Requirement already up-to-date: setuptools in /usr/local/lib/python3.6/dist-packages (41.2.0)
-Requirement already up-to-date: wheel in /usr/local/lib/python3.6/dist-packages (0.33.6)
+Collecting ipython==7.7.0
+  Downloading https://files.pythonhosted.org/packages/f6/c4/a79582814bdfe92bfca4d286a729304ffdf13f5135132cfcaea13cf1b2b3/ipython-7.7.0-py3-none-any.whl (774kB)
+     |████████████████████████████████| 778kB 2.8MB/s 
+Requirement already satisfied: decorator in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (4.4.0)
+Collecting prompt-toolkit<2.1.0,>=2.0.0 (from ipython==7.7.0)
+  Downloading https://files.pythonhosted.org/packages/f7/a7/9b1dd14ef45345f186ef69d175bdd2491c40ab1dfa4b2b3e4352df719ed7/prompt_toolkit-2.0.9-py3-none-any.whl (337kB)
+     |████████████████████████████████| 337kB 49.2MB/s 
+Requirement already satisfied: backcall in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (0.1.0)
+Requirement already satisfied: pexpect; sys_platform != "win32" in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (4.7.0)
+Requirement already satisfied: traitlets>=4.2 in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (4.3.2)
+Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (41.2.0)
+Requirement already satisfied: pygments in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (2.1.3)
+Requirement already satisfied: pickleshare in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (0.7.5)
+Requirement already satisfied: jedi>=0.10 in /usr/local/lib/python3.6/dist-packages (from ipython==7.7.0) (0.15.1)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/dist-packages (from prompt-toolkit<2.1.0,>=2.0.0->ipython==7.7.0) (0.1.7)
+Requirement already satisfied: six>=1.9.0 in /usr/local/lib/python3.6/dist-packages (from prompt-toolkit<2.1.0,>=2.0.0->ipython==7.7.0) (1.12.0)
+Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.6/dist-packages (from pexpect; sys_platform != "win32"->ipython==7.7.0) (0.6.0)
+Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.6/dist-packages (from traitlets>=4.2->ipython==7.7.0) (0.2.0)
+Requirement already satisfied: parso>=0.5.0 in /usr/local/lib/python3.6/dist-packages (from jedi>=0.10->ipython==7.7.0) (0.5.1)
+ERROR: jupyter-console 5.2.0 has requirement prompt-toolkit<2.0.0,>=1.0.0, but you'll have prompt-toolkit 2.0.9 which is incompatible.
+ERROR: google-colab 1.0.0 has requirement ipython~=5.5.0, but you'll have ipython 7.7.0 which is incompatible.
+Installing collected packages: prompt-toolkit, ipython
+  Found existing installation: prompt-toolkit 1.0.16
+    Uninstalling prompt-toolkit-1.0.16:
+      Successfully uninstalled prompt-toolkit-1.0.16
+  Found existing installation: ipython 5.5.0
+    Uninstalling ipython-5.5.0:
+      Successfully uninstalled ipython-5.5.0
+Successfully installed ipython-7.7.0 prompt-toolkit-2.0.9
 ```
-
 
 
 # !curl https://cli-assets.heroku.com/install.sh | sh
