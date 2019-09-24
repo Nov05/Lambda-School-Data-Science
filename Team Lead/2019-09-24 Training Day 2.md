@@ -1,6 +1,6 @@
 # Day 2  
 
-Notion   
+Notion     
 https://www.notion.so/Day-2-a19260bb87c14c91ae61074228c4d401    
 
 Britt Tedeschi:lambda-staff-refresh: 17:06   
@@ -12,4 +12,8 @@ Britt Tedeschi:lambda-staff-refresh: 17:06
 4. Talk about, as a team, ways to build community across your section.  
 If there are only a few people in your group, reply here, and we can combine cohorts  
  
+LS190930 TL Training Day 2      
+https://youtu.be/SMWoqKbLXac   
+
+
 
