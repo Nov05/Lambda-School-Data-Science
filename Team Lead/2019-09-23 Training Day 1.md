@@ -7,4 +7,7 @@ https://docs.google.com/document/d/1LQHJt9KloFJnOW5JYfcluezvsR9dnttYp7lxursgKiU/
 
 ### Training Video  
 
+LS190930 TL TRaining Day 1    
+https://youtu.be/uiwcCWjF0go
+
 
