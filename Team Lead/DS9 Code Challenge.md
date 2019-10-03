@@ -20,3 +20,11 @@ https://towardsdatascience.com/the-cold-start-problem-how-to-build-your-machine-
 Guillermo Arria-Devoe:lambdapm-new: 09:59    
 @channel Good morning DS9! :blob-sun: Here is your warm-up challenge for today. Please save (Ctrl+s shortcut) to create a copy of the notebook. Keep it simple, try your best, and don't forget to share with your groups:   
 https://colab.research.google.com/drive/1RlWmtotWBEE1gOf4fANi9j_vX2lvxV_e#scrollTo=F-LkLX1H2-XC    
+
+### Unit 1 Sprint 1 Module 2 
+2019-10-01  
+Guillermo Arria-Devoe:lambdapm-new: 09:55    
+@channel Good morning DS9! Please review this article on string operations to prepare for lecture:   
+https://jakevdp.github.io/PythonDataScienceHandbook/03.10-working-with-strings.html   
+When you are finished go ahead and move on to the Colab code challenge below and share solutions with your groups:    
+https://colab.research.google.com/drive/1rmApBxYdNZw7KL8rGccVCehkj12SZEkg   
