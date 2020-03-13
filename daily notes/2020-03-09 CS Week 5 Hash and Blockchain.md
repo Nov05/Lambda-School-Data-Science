@@ -33,10 +33,11 @@ YouTubeYouTube | Lambda School
 Arrays for CS26 w/ Brian Doyle  
 ```
 
-# 
+# 2020-03-11 Wednesday   
 
-2020-03-11 Wednesday   
-
+Reed Turgeon:lambda-staff-refresh:  14:10  
+**Lecture: Blockchain I - Structure**     
+https://youtu.be/iRZBPDZ71Ak   
 
 Brian Doyle:lambda-shield:  10:03
 ```
@@ -69,6 +70,10 @@ Agenda
 ```
 
 # 2020-03-12 Thursday  
+
+Reed Turgeon:lambda-staff-refresh:  14:20   
+**Lecture: Blockchain II - Distribution**      
+https://youtu.be/JDw6XE9J_3s
 
 Brian Doyle:lambda-shield:  10:17
 ```
