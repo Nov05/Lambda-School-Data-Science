@@ -51,6 +51,7 @@ Videos:
 * Proof of Work: https://youtu.be/CWUyDxWP6tU
 ```
 
+`curl -X POST -H "Content-Type: application/json" -d '{"test":"teststring"}' localhost:5000/mine`
 
 Brian Doyle:lambda-shield:  11:00
 ```
@@ -97,6 +98,20 @@ Agenda
 * Transactions, rewards for mining
 * Homework Discussion - Simple Wallet App
 ```
+
+Brady Fukumoto:lambda-shield:  12:59
+```
+Explain in detail the workings of a dynamic array:
+1. What is the runtime complexity to access an array, add or remove from the front, and add or remove from the back?
+2. What is the worst case scenario if you try to extend the storage size of a dynamic array?
+3. Explain how a blockchain is structured. What are the blocks, what is the chain? How is the data organized?
+4. Explain how proof of work functions. How does it operate. How does this protect the chain from attack. What kind of attack is possible?
+```
+
+https://www.interviewcake.com/concept/java/dynamic-array    
+https://hackernoon.com/learn-blockchains-by-building-one-117428612f46      
+Each Block has an index, a timestamp (in Unix time), a list of transactions, a proof (more on that later), and the hash of the previous Block.  
+Proof of Work, easy to verify, hard to compute.    
 
 
 
