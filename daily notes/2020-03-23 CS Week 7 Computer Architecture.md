@@ -49,6 +49,7 @@ On deck:
 * How to attack this week   
 * Number bases   
 * A sample virtual machine   
+
 Slido: https://app.sli.do/event/pxvxnyfx   
 See you in just a couple minutes!     
 https://lambdaschool.zoom.us/j/91715349888?pwd=d2tabVljaDR4WVg3RlZ5TnV0d3JTQT09    
@@ -60,6 +61,7 @@ Beej Jorgensen:lambda-shield:  11:01
 * Bitwise operations   
 * File I/O   
 * Improving the sample virtual machine   
+ 
 Slido: https://app.sli.do/event/pxvxnyfx   
 We'll get started about 5 after:     
 https://lambdaschool.zoom.us/j/94903868194?pwd=QUExMFlnSFBGb3RiYVJWSjdHenlPZz09    
