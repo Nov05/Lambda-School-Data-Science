@@ -1,13 +1,17 @@
 
 
-Lecture: Computer Architecture - I (Basics & Number Bases)   
+**Lecture: Computer Architecture - I (Basics & Number Bases)**   
 https://youtu.be/XZdjaKeA77Q   
+https://youtu.be/HsyB2Huv-p4    
 
-Lecture: Computer Architecture - II (Bitwise Operations)    
+**Lecture: Computer Architecture - II (Bitwise Operations)**     
 https://youtu.be/w6ReZQQ-Wmg   
 
-Lecture: Computer Architecture - III (The System Stack)    
-https://youtu.be/tF9k0DsJU9A    
+**Lecture: Computer Architecture - III (The System Stack)**      
+https://youtu.be/tF9k0DsJU9A  
+
+**Lecture: Computer Architecture - IV (Subroutines)**       
+https://youtu.be/ZvOS4zOe_-Q    
 
 
 # 2020-03-26 Thursday   
@@ -48,6 +52,20 @@ On deck:
 Slido: https://app.sli.do/event/pxvxnyfx   
 See you in just a couple minutes!     
 https://lambdaschool.zoom.us/j/91715349888?pwd=d2tabVljaDR4WVg3RlZ5TnV0d3JTQT09    
+
+# 2020-04-21 Tuesday   
+
+Beej Jorgensen:lambda-shield:  11:01    
+@channel Howdy! Ready for another amazing day in low-level computer land?   
+* Bitwise operations   
+* File I/O   
+* Improving the sample virtual machine   
+Slido: https://app.sli.do/event/pxvxnyfx   
+We'll get started about 5 after:     
+https://lambdaschool.zoom.us/j/94903868194?pwd=QUExMFlnSFBGb3RiYVJWSjdHenlPZz09    
+
+
+
 
 
 
