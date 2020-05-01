@@ -2,16 +2,19 @@
 
 **Lecture: Computer Architecture - I (Basics & Number Bases)**   
 https://youtu.be/XZdjaKeA77Q   
-https://youtu.be/HsyB2Huv-p4    
+https://youtu.be/HsyB2Huv-p4 (Beej Jorgensen)     
 
 **Lecture: Computer Architecture - II (Bitwise Operations)**     
-https://youtu.be/w6ReZQQ-Wmg   
+https://youtu.be/w6ReZQQ-Wmg     
+https://youtu.be/r6qhTx4FNWo (Beej Jorgensen)      
 
 **Lecture: Computer Architecture - III (The System Stack)**      
 https://youtu.be/tF9k0DsJU9A  
+https://youtu.be/hfuqlB8Ajzc (Beej Jorgensen)    
 
 **Lecture: Computer Architecture - IV (Subroutines)**       
-https://youtu.be/ZvOS4zOe_-Q    
+https://youtu.be/ZvOS4zOe_-Q      
+https://youtu.be/zPkhNiB_qLY (Beej Jorgensen)    
 
 
 # 2020-03-26 Thursday   
@@ -65,6 +68,24 @@ Beej Jorgensen:lambda-shield:  11:01
 Slido: https://app.sli.do/event/pxvxnyfx   
 We'll get started about 5 after:     
 https://lambdaschool.zoom.us/j/94903868194?pwd=QUExMFlnSFBGb3RiYVJWSjdHenlPZz09    
+
+# 2020-04-22 Wednesday   
+
+Beej Jorgensen:lambda-shield:  11:00   
+@channel Good morning, all.   
+For today:   
+* Recent events   
+* Upcoming events   
+* Architecture: the system stack   
+* Stack Frames in higher level languages   
+Slido: https://app.sli.do/event/pxvxnyfx    
+We'll get started n just a couple minutes:    
+https://lambdaschool.zoom.us/j/92468004248?pwd=cVJwYmc4U2NEZEc0M1lObnloKzJudz09    
+
+
+
+
+
 
 
 
