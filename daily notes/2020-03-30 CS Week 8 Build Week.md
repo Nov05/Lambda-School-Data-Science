@@ -154,6 +154,22 @@ For DS on Friday Sprinkle Challenge:
 - You can only look at online documentation, not your own school notes.
 ```
 
+Matt Poloni:lambda-new-tl:  09:55   
+```   
+@channel Good morning! Web, Android, and iOS students should be receiving an email with the link to the HackerRank challenge within a few minutes. We will post the details for the Data Science-specific Sprint Challenge momentarily.      
+When you finish, you still need to submit your Sprint Retro form for this week so that your TL can pass you and you won't get flexed. In the Where can we find your sprint challenge? field of the form, DS students will include links to their notebooks and all other students (Web, Android, and iOS) will simply type endorsement hackerrank challenge.      
+  
+DS Build Week Sprint Challenge    
+Attempt one, or both!
+Challenge A:
+A major online travel booking company provides this two column dataset to candidates for its Data Science positions. This company calls this dataset a puzzle. Spend some time investigating this dataset and 'solving' the puzzle.
+https://drive.google.com/file/d/0B7ljSqzqjOkEMEFXdlY1WXN6WUk/view
+Challenge B:
+Attempt a score of 0.4 or better
+https://www.kaggle.com/c/bosch-production-line-performance/overview
+In your Sprint Challenge Retro, under Where can we find your sprint challenge?, include links to your notebooks.
+```
+
 
 
 
