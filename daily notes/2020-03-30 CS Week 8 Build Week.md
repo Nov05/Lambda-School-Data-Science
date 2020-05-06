@@ -4,7 +4,14 @@ Leetcode problems: https://colab.research.google.com/drive/1xnYj5Q7MNnWYOtit-KFT
 Full-time FAQ: https://www.notion.so/FT-Build-Sprint-Assessment-FAQs-0acf6c925ea9480593efadabf5470771    
 Part-time FAQ: https://www.notion.so/PT-Build-Sprint-Assessment-FAQs-0ccdc98c8f2447f9b21902e88ec318d2    
 
+# CS Build Week 2: Interview Prep
 
+This is a general repo that you can fork for holding any artifacts you
+might need to submit during the week. Feel free to make subdirectories
+here as necessary.
+
+For all details about the week, [check out the page in
+TrainingKit](https://learn.lambdaschool.com/cs/sprint/reco0t22NdXmr8VyL).
 
 
 # 2020-04-22 Wednesday   
